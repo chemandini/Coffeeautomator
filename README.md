@@ -29,4 +29,5 @@ Welcome to the **Coffee Recommender Prototype**! This project is a dynamic web a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/coffee-recommender.git
+   git clone https://github.com/chemandini/coffeeautomator
+   
