@@ -53,7 +53,7 @@ This prototype is designed for **Cool Hand Coffee Roasters**, aiming to:
 
 ```
 project-root/
-├── Attempt4_1.html         # Main HTML file
+├── index.html         # Main HTML file
 ├── images/                 # Folder containing coffee images
 │   ├── morning.jpg
 │   ├── espresso.jpg
@@ -115,7 +115,7 @@ This project is submitted in partial fulfillment of the requirements for the H9C
 
 ## 📬 Contact
 
-**Student Name:** [Your Full Name]  
-**Email:** [Your Academic Email]  
+**Student Name:** César Antonio Ledesma González  
+**Email:** x23425016@student.ncirl.ie
 **Institution:** National College of Ireland  
 **Supervisor:** Victor del Rosal
