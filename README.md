@@ -94,7 +94,7 @@ project-root/
 
 ## 🔗 Live Demo
 
-> Upload the project to GitHub Pages or Netlify and include the link here.
+(https://github.com/chemandini/Coffeeautomator)
 
 ---
 
