@@ -1,33 +1,121 @@
-# Coffee Recommender Prototype
+# ☕ Coffee Recommender & Chatbot Interface
 
-Welcome to the **Coffee Recommender Prototype**! This project is a dynamic web application designed to help users find their perfect coffee match based on their preferences. It features an interactive quiz, a chatbot assistant, and a responsive design.
+## 📌 Project Overview
 
----
+This project implements an interactive **Coffee Recommender System** augmented with a **Chatbot Assistant** to enhance customer engagement for a specialty coffee company. The system guides users through a three-step quiz to understand their coffee preferences and recommends a personalized coffee blend. Additionally, it provides chatbot support to assist users in real time.
 
-## Features
-
-- **Interactive Quiz**: Users can answer questions about their coffee preferences to get personalized recommendations.
-- **Dynamic Results**: Coffee matches are displayed with detailed descriptions, images, and features.
-- **Responsive Design**: The application is fully responsive and works seamlessly on desktop, tablet, and mobile devices.
-- **Chatbot Integration**: Users can chat with a coffee expert for additional assistance.
-- **Modern UI/UX**: Glassmorphism design for a clean and modern look.
+> Developed as part of the MSc in Artificial Intelligence coursework (H9CEAI), National College of Ireland.
 
 ---
 
-## Technologies Used
+## 🚀 Features
 
-- **HTML5**: For structuring the content.
-- **CSS3**: For styling, including responsive design and glassmorphism effects.
-- **JavaScript**: For interactivity and dynamic functionality.
-- **GSAP**: For smooth animations and transitions.
-- **Font Awesome**: For social media icons.
-- **Chatbase**: For chatbot integration.
+- **Personalized Coffee Quiz**: Three-step guided interaction.
+- **Dynamic Coffee Recommendations**: Matches based on experience, flavor preference, and brew method.
+- **Local Storage Persistence**: Saves quiz progress and answers.
+- **Responsive Design**: Adapts layout for mobile and desktop.
+- **Glassmorphism UI**: Visually modern and elegant interface.
+- **AI Chatbot Assistant**: Embedded Chatbase chatbot for post-recommendation queries.
 
 ---
 
-## How to Run the Project
+## 🎯 Use Case
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/chemandini/coffeeautomator
-   
+This prototype is designed for **Cool Hand Coffee Roasters**, aiming to:
+
+- Enhance digital customer engagement.
+- Help new and returning customers discover new coffee products.
+- Provide support through conversational AI.
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5 / CSS3**
+- **JavaScript (ES6)**
+- **GSAP (GreenSock)** for animations.
+- **Chatbase API** for chatbot integration.
+- **LocalStorage API** for quiz persistence.
+- **Responsive Web Design** principles and media queries.
+
+---
+
+## 📸 Screenshots
+
+> 📷 Screenshots should be added here showing:
+> - Quiz steps
+> - Recommendation result
+> - Chatbot interface
+
+---
+
+## 📂 Folder Structure
+
+```
+project-root/
+├── Attempt4_1.html         # Main HTML file
+├── images/                 # Folder containing coffee images
+│   ├── morning.jpg
+│   ├── espresso.jpg
+│   ├── ethiopian.jpg
+│   ├── colombian.jpg
+│   └── adventurous.jpg
+└── README.md               # Project documentation (this file)
+```
+
+---
+
+## 🧠 How It Works
+
+1. **User Experience Flow**:
+   - Selects their coffee experience.
+   - Chooses preferred flavor profile.
+   - Picks a brewing method.
+   - Receives a curated coffee match.
+
+2. **Recommendation Logic**:
+   - Each coffee blend has associated metadata.
+   - A weighted score determines the best match based on user input.
+
+3. **Chatbase Assistant**:
+   - Activated post-recommendation.
+   - Provides conversational support, product details, and FAQs.
+
+---
+
+## 🔐 Privacy & Ethics
+
+- No personally identifiable data is collected.
+- LocalStorage is used only for in-browser session memory.
+- The chatbot integration complies with GDPR and general data protection standards.
+- Designed ethically for non-invasive, assistive interaction.
+
+---
+
+## 🔗 Live Demo
+
+> Upload the project to GitHub Pages or Netlify and include the link here.
+
+---
+
+## 📚 References
+
+- National College of Ireland H9CEAI Module Guidelines.
+- [Chatbase API](https://www.chatbase.co/)
+- [GSAP Animations](https://greensock.com/gsap/)
+- Design principles inspired by glassmorphism and minimal UI practices.
+
+---
+
+## 👨‍🎓 Academic Statement
+
+This project is submitted in partial fulfillment of the requirements for the H9CEAI module. All AI-generated outputs are cited, and the project adheres to ethical, academic integrity and originality policies as outlined by the National College of Ireland.
+
+---
+
+## 📬 Contact
+
+**Student Name:** [Your Full Name]  
+**Email:** [Your Academic Email]  
+**Institution:** National College of Ireland  
+**Supervisor:** Victor del Rosal

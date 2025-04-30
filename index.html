@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Recommender</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <style>
+        :root {
+            --primary-color: #6F4E37;
+            --secondary-color: #C9A66B;
+            --accent-color: #E1B382;
+            --text-color: #333;
+            --light-text: #f9f9f9;
+            --glass-bg: rgba(255, 255, 255, 0.25);
+            --glass-border: rgba(255, 255, 255, 0.18);
+            --shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--text-color);
+            background-image: url('https://api.placeholder.com/400/320');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Layout Styles */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo svg {
+            width: 32px;
+            height: 32px;
+            fill: var(--primary-color);
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            padding: 2rem 0;
+            min-height: calc(100vh - 160px);
+        }
+
+        @media (min-width: 768px) {
+            main {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        /* Glassmorphism Styles */
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border-radius: 16px;
+            border: 1px solid var(--glass-border);
+            box-shadow: var(--shadow);
+            padding: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.3);
+        }
+
+        /* Quiz Styles */
+        .quiz-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .quiz-step {
+            display: none;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        .quiz-step.active {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .quiz-title {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .quiz-subtitle {
+            font-size: 1.2rem;
+            color: var(--text-color);
+            margin-bottom: 1.5rem;
+        }
+
+        .quiz-options {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+
+        @media (min-width: 480px) {
+            .quiz-options {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .option-card {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(4px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .option-card:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-3px);
+        }
+
+        .option-card.selected {
+            background: var(--secondary-color);
+            color: var(--light-text);
+            border: 1px solid var(--secondary-color);
+        }
+
+        .quiz-nav {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1.5rem;
+        }
+
+        /* Results Styles */
+        .results-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        .recommendation-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 1.5rem;
+            padding: 1.7rem 1.3rem;
+            background: var(--glass-bg);
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
+            width: 85%; /* Reduced width to make it 15% smaller */
+            max-width: 340px; /* Optional: Limit the maximum size */
+            margin: 0 auto; /* Center the card */
+        }
+
+        .recommendation-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(31, 38, 135, 0.3);
+        }
+
+        .coffee-img {
+            width: 33%; /* Responsive width */
+            max-width: 200px; /* Limit max size */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 16px; /* Soft-rounded rectangle */
+            object-fit: cover; /* Keep proportions clean */
+            border: 3px solid var(--secondary-color); /* Add border */
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        .coffee-name {
+            font-size: 1.8rem; /* Slightly larger for emphasis */
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .coffee-description {
+            font-size: 1rem;
+            color: var(--text-color);
+            max-width: 90%; /* Limit width for readability */
+        }
+
+        .recommendation-features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .feature-tag {
+            background: var(--accent-color);
+            color: var(--light-text);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+        }
+
+        /* Button Styles */
+        .btn {
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            background: var(--primary-color);
+            color: var(--light-text);
+            border: none;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .btn:hover {
+            background: #5d412e;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            border: 1px solid var(--primary-color);
+            color: var(--primary-color);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(111, 78, 55, 0.1);
+        }
+
+        .btn-disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .btn-disabled:hover {
+            transform: none;
+            box-shadow: none;
+        }
+
+        /* Chat Bot Styles */
+        .chatbot-button {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: var(--primary-color);
+            color: var(--light-text);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            z-index: 100;
+        }
+
+        .chatbot-button:hover {
+            transform: scale(1.1);
+        }
+
+        .chatbot-button svg {
+            width: 28px;
+            height: 28px;
+            fill: var(--light-text);
+        }
+
+        .chatbot-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .chatbot-modal.active {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .modal-backdrop {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+            cursor: pointer;
+        }
+
+        .modal-content {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+            height: 600px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(16px);
+            border-radius: 20px;
+            border: 1px solid var(--glass-border);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            z-index: 1001;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            border-bottom: 1px solid var(--glass-border);
+        }
+
+        .modal-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.5rem;
+            color: var(--text-color);
+            transition: all 0.3s ease;
+        }
+
+        .modal-close:hover {
+            color: #ff6b6b;
+        }
+
+        .modal-body {
+            height: calc(100% - 60px);
+            overflow: hidden;
+        }
+
+        /* Chat iframe styles */
+        .chatbase-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #chatbase-iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            background: transparent;
+        }
+
+        /* Progress indicator */
+        .progress-container {
+            width: 100%;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 2px;
+            margin: 1rem 0;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: var(--accent-color);
+            width: 0;
+            transition: width 0.5s ease;
+        }
+
+        /* Utilities */
+        .text-center {
+            text-align: center;
+        }
+
+        .mb-1 {
+            margin-bottom: 0.5rem;
+        }
+
+        .mb-2 {
+            margin-bottom: 1rem;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        /* Animation classes */
+        .fade-in {
+            animation: fadeIn 0.5s forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .main-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: var(--glass-bg);
+    backdrop-filter: blur(8px);
+    box-shadow: var(--shadow);
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Match footer width */
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    margin-right: auto; /* Push the logo to the very left */
+}
+
+.logo img {
+    height: 65px; /* Adjusted logo size */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.nav-links {
+    display: flex;
+    gap: 3rem; /* Add spacing between nav links */
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--accent-color);
+}
+
+.reset-btn {
+    margin-left: 1rem; /* Add spacing between the Reset button and Next button */
+    padding: 0.6rem 1.2rem; /* Adjust padding for a smaller button */
+    font-size: 0.9rem; /* Adjust font size */
+    border-radius: 20px; /* Rounded corners */
+    background: var(--secondary-color); /* Match the secondary color */
+    color: var(--light-text);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.reset-btn:hover {
+    background: rgba(111, 78, 55, 0.8); /* Darker hover effect */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 1rem;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--glass-bg);
+        padding: 1rem;
+        box-shadow: var(--shadow);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+}
+
+.main-footer {
+    background: #f5f5f5; /* Light background */
+    padding: 1rem 0.5rem;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Gentle shadow at the top */
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-color);
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.footer-copyright {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.footer-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+.footer-contact span {
+    color: var(--text-color);
+}
+
+.footer-contact a {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+}
+
+.footer-contact a:hover {
+    color: var(--accent-color);
+}
+
+.footer-social {
+    display: flex;
+    gap: 1rem; /* Add spacing between icons */
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem; /* Add spacing above social icons */
+}
+
+.social-icon {
+    font-size: 1.5rem; /* Adjust icon size */
+    color: var(--primary-color);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: var(--accent-color);
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.footer-links {
+    display: flex;
+    gap: 0.3rem; /* Add small spacing between items */
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: var(--accent-color);
+}
+
+.footer-links span {
+    color: var(--text-color); /* Style for the separator */
+}
+
+#reset-btn {
+    margin-top: 1rem; /* Add spacing above the button */
+    padding: 0.6rem 1.2rem; /* Adjust padding for a smaller button */
+    font-size: 0.9rem; /* Adjust font size */
+    border-radius: 20px; /* Rounded corners */
+    background: var(--secondary-color); /* Match the secondary color */
+    color: var(--light-text);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#reset-btn:hover {
+    background: rgba(111, 78, 55, 0.8); /* Darker hover effect */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="main-header">
+    <div class="header-container">
+        <div class="logo">
+            <img src="images/coolhandlogo.png" alt="Cool Hand Coffee Roasters Logo">
+        </div>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#our-coffee">Our Coffee</a>
+            <a href="#subscriptions">Subscriptions</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="btn btn-secondary reset-btn" id="reset-btn">Reset Quiz</button>
+        <div class="hamburger-menu" id="hamburger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</header>
+
+        <main>
+            <section class="quiz-container glass-card">
+                <div class="progress-container">
+                    <div class="progress-bar" id="quiz-progress"></div>
+                </div>
+                
+                <!-- Quiz Step 1 -->
+                <div class="quiz-step active" data-step="1">
+                    <h2 class="quiz-title">What's your coffee experience level?</h2>
+                    <p class="quiz-subtitle">Let's find your perfect coffee match</p>
+                    <div class="quiz-options">
+                        <div class="option-card" data-value="beginner">
+                            <h3>Beginner</h3>
+                            <p>Just starting my coffee journey</p>
+                        </div>
+                        <div class="option-card" data-value="intermediate">
+                            <h3>Intermediate</h3>
+                            <p>I know what I like</p>
+                        </div>
+                        <div class="option-card" data-value="expert">
+                            <h3>Expert</h3>
+                            <p>I'm a coffee connoisseur</p>
+                        </div>
+                        <div class="option-card" data-value="adventurous">
+                            <h3>Adventurous</h3>
+                            <p>Always trying new things</p>
+                        </div>
+                    </div>
+                    <div class="quiz-nav">
+                        <button class="btn btn-secondary" id="prev-btn" disabled>Previous</button>
+                        <button class="btn btn-disabled" id="next-btn" disabled>Next</button>
+                        <button class="btn btn-secondary reset-btn" id="reset-btn">Reset Quiz</button>
+                    </div>
+                </div>
+                
+                <!-- Quiz Step 2 -->
+                <div class="quiz-step" data-step="2">
+                    <h2 class="quiz-title">How do you like your coffee flavor?</h2>
+                    <p class="quiz-subtitle">Choose your preferred taste profile</p>
+                    <div class="quiz-options">
+                        <div class="option-card" data-value="bold">
+                            <h3>Bold & Rich</h3>
+                            <p>Strong, full-bodied flavors</p>
+                        </div>
+                        <div class="option-card" data-value="balanced">
+                            <h3>Balanced</h3>
+                            <p>Smooth, well-rounded taste</p>
+                        </div>
+                        <div class="option-card" data-value="bright">
+                            <h3>Bright & Vibrant</h3>
+                            <p>Fruity, acidic notes</p>
+                        </div>
+                        <div class="option-card" data-value="sweet">
+                            <h3>Sweet & Smooth</h3>
+                            <p>Low acidity, caramel notes</p>
+                        </div>
+                    </div>
+                    <div class="quiz-nav">
+                        <button class="btn btn-secondary" id="prev-btn">Previous</button>
+                        <button class="btn-disabled" id="next-btn" disabled>Next</button>
+                    </div>
+                </div>
+                
+                <!-- Quiz Step 3 -->
+                <div class="quiz-step" data-step="3">
+                    <h2 class="quiz-title">How do you brew your coffee?</h2>
+                    <p class="quiz-subtitle">Select your preferred brewing method</p>
+                    <div class="quiz-options">
+                        <div class="option-card" data-value="espresso">
+                            <h3>Espresso Machine</h3>
+                            <p>Concentrated & quick</p>
+                        </div>
+                        <div class="option-card" data-value="drip">
+                            <h3>Drip Coffee</h3>
+                            <p>Classic automatic brewing</p>
+                        </div>
+                        <div class="option-card" data-value="pourover">
+                            <h3>Pour Over</h3>
+                            <p>Hand-brewed precision</p>
+                        </div>
+                        <div class="option-card" data-value="french">
+                            <h3>French Press</h3>
+                            <p>Full immersion brewing</p>
+                        </div>
+                    </div>
+                    <div class="quiz-nav">
+                        <button class="btn btn-secondary" id="prev-btn">Previous</button>
+                        <button class="btn" id="get-results-btn">Get My Coffee Match</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="results-container glass-card hidden" id="results-section">
+                <h2 class="quiz-title">Your Perfect Coffee Match</h2>
+                <div class="recommendation-card">
+                    <img src="https://api.placeholder.com/400/320" alt="Coffee" class="coffee-img" id="coffee-img">
+                    <h3 class="coffee-name" id="coffee-name">Loading your match...</h3>
+                    <p class="coffee-description" id="coffee-description">Based on your preferences, we're finding your perfect coffee match.</p>
+                    <div class="recommendation-features" id="coffee-features">
+                        <!-- Features will be added dynamically -->
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <button class="btn pulse" id="chat-about-coffee">
+                        Chat with our Coffee Expert
+                        <svg viewBox="0 0 24 24" width="16" height="16" style="margin-left: 5px;">
+                            <path fill="currentColor" d="M12,3C17.5,3 22,6.58 22,11C22,15.42 17.5,19 12,19C10.76,19 9.57,18.82 8.47,18.5C5.55,21 2,21 2,21C4.33,18.67 4.7,17.1 4.75,16.5C3.05,15.07 2,13.13 2,11C2,6.58 6.5,3 12,3M17,12V10H15V12H17M13,12V10H11V12H13M9,12V10H7V12H9Z" />
+                        </svg>
+                    </button>
+                    <button class="btn btn-secondary mt-1" id="reset-btn">
+                        Reset Quiz
+                    </button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Chatbot Modal -->
+    <div class="chatbot-modal" id="chatbot-modal">
+        <div class="modal-backdrop" id="modal-backdrop"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title">Coffee Expert Assistant</div>
+                <button class="modal-close" id="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="chatbase-container">
+                    <!-- Chatbase will be loaded here -->
+                    <div id="chatbase-container"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chatbase Integration Script -->
+    <script>
+    (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad = function() {
+    const script = document.createElement("script");
+    script.src = "https://www.chatbase.co/embed.min.js";
+    script.id = "TxZVcz6r-UbsXIZ40260R";
+    script.domain = "www.chatbase.co";
+    script.onload = () => console.log("Chatbase script loaded successfully.");
+    script.onerror = () => console.error("Failed to load Chatbase script.");
+    document.body.appendChild(script);
+};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+    </script>
+
+    <!-- App JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize GSAP
+            gsap.registerPlugin();
+            
+            // Quiz state
+            const quizState = {
+                currentStep: 1,
+                totalSteps: 3,
+                answers: {
+                    experience: '',
+                    flavor: '',
+                    brewMethod: ''
+                }
+            };
+            
+            // Elements
+            const quizSteps = document.querySelectorAll('.quiz-step');
+            const progressBar = document.getElementById('quiz-progress');
+            const resultsSection = document.getElementById('results-section');
+            const resetBtn = document.getElementById('reset-btn');
+            const chatbotModal = document.getElementById('chatbot-modal');
+            const modalBackdrop = document.getElementById('modal-backdrop');
+            const modalClose = document.getElementById('modal-close');
+            const chatAboutCoffeeBtn = document.getElementById('chat-about-coffee');
+            const hamburgerMenu = document.getElementById('hamburger-menu');
+            const navLinks = document.querySelector('.nav-links');
+
+            hamburgerMenu.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+            
+            // Coffee database
+            const coffeeDatabase = [
+                {
+                    id: 1,
+                    name: "Smooth Morning Blend",
+                    description: "A gentle, smooth coffee with subtle notes of chocolate and a mild finish.",
+                    image: "images/morning.jpg",
+                    features: ["Mild", "Low Acidity", "Chocolate Notes"],
+                    match: {
+                        experience: ["beginner"],
+                        flavor: ["balanced", "sweet"],
+                        brewMethod: ["drip", "french"]
+                    }
+                },
+                {
+                    id: 2,
+                    name: "Bold Espresso Roast",
+                    description: "Intense and robust with deep chocolate and caramel flavors with a powerful finish.",
+                    image: "images/espresso.jpg",
+                    features: ["Bold", "Rich Body", "Dark Chocolate"],
+                    match: {
+                        experience: ["intermediate", "expert"],
+                        flavor: ["bold"],
+                        brewMethod: ["espresso"]
+                    }
+                },
+                {
+                    id: 3,
+                    name: "Fruity Ethiopian Light Roast",
+                    description: "Bright and complex with vibrant berry notes and a wine-like acidity.",
+                    image: "images/ethiopian.jpg",
+                    features: ["Bright", "Berry Notes", "Wine-like"],
+                    match: {
+                        experience: ["expert", "adventurous"],
+                        flavor: ["bright"],
+                        brewMethod: ["pourover"]
+                    }
+                },
+                {
+                    id: 4,
+                    name: "Balanced Colombian Medium",
+                    description: "Well-balanced with notes of caramel, citrus, and a nutty finish.",
+                    image: "images/colombian.jpg",
+                   
+                    match: {
+                        experience: ["intermediate"],
+                        flavor: ["balanced", "sweet"],
+                        brewMethod: ["drip", "pourover"]
+                    }
+                },
+                {
+                    id: 5,
+                    name: "Adventurous Blend",
+                    description: "A unique blend with surprising notes of tropical fruit and spices.",
+                    image: "images/adventurous.jpg",
+                    features: ["Exotic", "Fruity", "Complex"],
+                    match: {
+                        experience: ["adventurous"],
+                        flavor: ["bright", "sweet"],
+                        brewMethod: ["pourover", "french"]
+                    }
+                }
+            ];
+            
+            // Initialize and load saved state
+            initApp();
+            
+            // Setup event listeners
+            setupEventListeners();
+            
+            // Initialize the app
+            function initApp() {
+                // Load saved state from localStorage
+                loadSavedState();
+                
+                // Set initial progress
+                updateProgressBar();
+                
+                // Animate initial step
+                if (quizState.currentStep <= quizState.totalSteps) {
+                    animateStep(document.querySelector(`.quiz-step[data-step="${quizState.currentStep}"]`));
+                } else {
+                    // Show results if quiz was completed
+                    showResults();
+                }
+            }
+            
+            // Load saved state from localStorage
+            function loadSavedState() {
+                const savedState = localStorage.getItem('coffeeQuizState');
+                if (savedState) {
+                    const parsedState = JSON.parse(savedState);
+                    quizState.currentStep = parsedState.currentStep;
+                    quizState.answers = parsedState.answers;
+                    
+                    // Update UI based on saved answers
+                    if (quizState.answers.experience) {
+                        selectOption(1, quizState.answers.experience);
+                    }
+                    if (quizState.answers.flavor) {
+                        selectOption(2, quizState.answers.flavor);
+                    }
+                    if (quizState.answers.brewMethod) {
+                        selectOption(3, quizState.answers.brewMethod);
+                    }
+                }
+            }
+            
+            // Save state to localStorage
+            function saveState() {
+                try {
+                    localStorage.setItem('coffeeQuizState', JSON.stringify(quizState));
+                } catch (error) {
+                    console.error("Failed to save state to localStorage:", error);
+                }
+            }
+            
+            // Set up event listeners
+            function setupEventListeners() {
+                // Option selection
+                document.querySelectorAll('.option-card').forEach(option => {
+                    option.addEventListener('click', function() {
+                        const step = this.closest('.quiz-step').dataset.step;
+                        const value = this.dataset.value;
+                        selectOption(step, value);
+                    });
+                });
+                
+                // Next buttons
+                document.querySelectorAll('#next-btn').forEach(btn => {
+                    btn.addEventListener('click', goToNextStep);
+                });
+                
+                // Previous buttons
+                document.querySelectorAll('#prev-btn').forEach(btn => {
+                    btn.addEventListener('click', goToPrevStep);
+                });
+                
+                // Get results button
+                document.getElementById('get-results-btn').addEventListener('click', showResults);
+                
+                // Reset button
+                document.getElementById('reset-btn').addEventListener('click', resetQuiz);
+                
+                // Chat about coffee button
+                chatAboutCoffeeBtn.addEventListener('click', openChatbot);
+                
+                // Modal close
+                modalClose.addEventListener('click', closeChatbot);
+                modalBackdrop.addEventListener('click', closeChatbot);
+            }
+            
+            // Select an option
+            function selectOption(step, value) {
+                // Clear previous selection
+                const options = document.querySelectorAll(`.quiz-step[data-step="${step}"] .option-card`);
+                options.forEach(opt => opt.classList.remove('selected'));
+
+                // Select new option
+                const selectedOption = document.querySelector(`.quiz-step[data-step="${step}"] .option-card[data-value="${value}"]`);
+                if (selectedOption) {
+                    selectedOption.classList.add('selected');
+                }
+
+                // Enable next button
+                const nextBtn = document.querySelector(`.quiz-step[data-step="${step}"] #next-btn`);
+                if (nextBtn) {
+                    nextBtn.classList.remove('btn-disabled');
+                    nextBtn.disabled = false;
+                }
+
+                // Update state
+                switch (Number(step)) {
+                    case 1:
+                        quizState.answers.experience = value;
+                        break;
+                    case 2:
+                        quizState.answers.flavor = value;
+                        break;
+                    case 3:
+                        quizState.answers.brewMethod = value;
+                        break;
+                }
+
+                saveState();
+            }
+            
+            // Go to next step
+            function goToNextStep() {
+                if (quizState.currentStep < quizState.totalSteps) {
+                    // Hide current step
+                    const currentStep = document.querySelector(`.quiz-step[data-step="${quizState.currentStep}"]`);
+                    gsap.to(currentStep, {
+                        opacity: 0,
+                        y: -20,
+                        duration: 0.3,
+                        onComplete: () => {
+                            currentStep.classList.remove('active');
+                            
+                            // Show next step
+                            quizState.currentStep++;
+                            const nextStep = document.querySelector(`.quiz-step[data-step="${quizState.currentStep}"]`);
+                            nextStep.classList.add('active');
+                            animateStep(nextStep);
+                            updateProgressBar();
+                            saveState();
+                        }
+                    });
+                }
+            }
+            
+            // Go to previous step
+            function goToPrevStep() {
+                if (quizState.currentStep > 1) {
+                    // Hide current step
+                    const currentStep = document.querySelector(`.quiz-step[data-step="${quizState.currentStep}"]`);
+                    gsap.to(currentStep, {
+                        opacity: 0,
+                        y: 20,
+                        duration: 0.3,
+                        onComplete: () => {
+                            currentStep.classList.remove('active');
+                            
+                            // Show previous step
+                            quizState.currentStep--;
+                            const prevStep = document.querySelector(`.quiz-step[data-step="${quizState.currentStep}"]`);
+                            prevStep.classList.add('active');
+                            animateStep(prevStep);
+                            updateProgressBar();
+                            saveState();
+                        }
+                    });
+                }
+            }
+            
+            // Animate step entrance
+            function animateStep(stepElement) {
+                gsap.fromTo(stepElement, 
+                    { opacity: 0, y: 20 },
+                    { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" }
+                );
+            }
+            
+            // Update progress bar
+            function updateProgressBar() {
+                const progress = (quizState.currentStep / quizState.totalSteps) * 100;
+                gsap.to(progressBar, {
+                    width: `${progress}%`,
+                    duration: 0.5,
+                    ease: "power2.inOut"
+                });
+            }
+            
+            // Show results
+            function showResults() {
+                // Update state
+                quizState.currentStep = quizState.totalSteps + 1;
+                saveState();
+
+                // Hide quiz container
+                const quizContainer = document.querySelector('.quiz-container');
+                gsap.to(quizContainer, {
+                    opacity: 0,
+                    y: -20,
+                    duration: 0.5,
+                    onComplete: () => {
+                        quizContainer.classList.add('hidden'); // Ensure the quiz container is hidden
+
+                        // Find matching coffee
+                        const matchedCoffee = findMatchingCoffee();
+
+                        // Ensure matchedCoffee is valid
+                        if (!matchedCoffee || !matchedCoffee.name) {
+                            console.error("No valid coffee match found.");
+                            return;
+                        }
+
+                        // Update results content
+                        const coffeeImg = document.getElementById('coffee-img');
+                        coffeeImg.src = matchedCoffee.image || 'https://via.placeholder.com/120';
+                        coffeeImg.alt = matchedCoffee.name;
+
+                        document.getElementById('coffee-name').textContent = matchedCoffee.name;
+                        document.getElementById('coffee-description').textContent = matchedCoffee.description;
+
+                        // Clear and add features
+                        const featuresContainer = document.getElementById('coffee-features');
+                        featuresContainer.innerHTML = ''; // Clear previous features
+                        matchedCoffee.features.forEach(feature => {
+                            const featureTag = document.createElement('div');
+                            featureTag.className = 'feature-tag';
+                            featureTag.textContent = feature;
+                            featuresContainer.appendChild(featureTag);
+                        });
+
+                        // Show results section
+                        const resultsSection = document.getElementById('results-section');
+                        resultsSection.classList.remove('hidden'); // Ensure the results section is visible
+                        gsap.fromTo(resultsSection, 
+                            { opacity: 0, y: 20 },
+                            { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }
+                        );
+                    }
+                });
+            }
+            
+            // Find matching coffee based on user preferences
+            function findMatchingCoffee() {
+                const userAnswers = quizState.answers;
+
+                // Calculate match scores for each coffee
+                const coffeeScores = coffeeDatabase.map(coffee => {
+                    let score = 0;
+
+                    // Check experience match
+                    if (coffee.match.experience.includes(userAnswers.experience)) {
+                        score += 3;
+                    }
+
+                    // Check flavor match
+                    if (coffee.match.flavor.includes(userAnswers.flavor)) {
+                        score += 5;
+                    }
+
+                    // Check brew method match
+                    if (coffee.match.brewMethod.includes(userAnswers.brewMethod)) {
+                        score += 4;
+                    }
+
+                    return { coffee, score };
+                });
+
+                // Sort by score descending
+                coffeeScores.sort((a, b) => b.score - a.score);
+
+                // Return the highest scoring coffee or a default fallback
+                return coffeeScores[0]?.coffee || {
+                    name: "No Match Found",
+                    description: "We couldn't find a coffee that matches your preferences. Try adjusting your answers!",
+                    image: "https://via.placeholder.com/120",
+                    features: ["No Match"]
+                };
+            }
+            
+            // Reset quiz
+            function resetQuiz() {
+                // Reset state
+                quizState.currentStep = 1;
+                quizState.answers = {
+                    experience: '',
+                    flavor: '',
+                    brewMethod: ''
+                };
+                saveState();
+
+                // Reset UI
+                document.querySelectorAll('.option-card').forEach(opt => {
+                    opt.classList.remove('selected'); // Clear selected options
+                });
+
+                document.querySelectorAll('#next-btn').forEach(btn => {
+                    btn.classList.add('btn-disabled'); // Disable Next buttons
+                    btn.disabled = true;
+                });
+
+                // Hide results section if visible
+                if (!resultsSection.classList.contains('hidden')) {
+                    gsap.to(resultsSection, {
+                        opacity: 0,
+                        y: -20,
+                        duration: 0.3,
+                        onComplete: () => {
+                            resultsSection.classList.add('hidden');
+                        }
+                    });
+                }
+
+                // Reset progress bar
+                updateProgressBar();
+
+                // Show the first quiz step
+                quizSteps.forEach(step => {
+                    step.classList.remove('active'); // Hide all steps
+                });
+
+                const firstStep = document.querySelector('.quiz-step[data-step="1"]');
+                firstStep.classList.add('active'); // Show the first step
+                animateStep(firstStep);
+            }
+            
+            // Chatbot functions
+            function openChatbot() {
+                // Create Chatbase container if it doesn't exist
+                if (!document.getElementById('chatbase-iframe')) {
+                    const chatbaseContainer = document.getElementById('chatbase-container');
+                    
+                    // Create iframe for Chatbase
+                    const iframe = document.createElement('iframe');
+                    iframe.id = 'chatbase-iframe';
+                    iframe.src = 'https://www.chatbase.co/chatbot-iframe/TxZVcz6r-UbsXIZ40260R';
+                    
+                    chatbaseContainer.appendChild(iframe);
+                }
+                
+                // Animate modal entranceion
+                const modalContent = document.querySelector('.modal-content');
+                gsap.fromTo(modalContent,
+                    { scale: 0.8, opacity: 0 },
+                    { scale: 1, opacity: 1, duration: 0.5, ease: "back.out(1.7)" }
+                );
+            }
+
+            function closeChatbot() {
+                // Animate modal exit
+                const modalContent = document.querySelector('.modal-content');
+                gsap.to(modalContent, {
+                    scale: 0.8,
+                    opacity: 0,
+                    duration: 0.3,
+                    ease: "power2.in",
+                    onComplete: () => {
+                        chatbotModal.classList.remove('active');
+                    }
+                });
+            }
+        });
+    </script>
+
+    <footer class="main-footer">
+    <div class="footer-content">
+        <!-- Copyright Line -->
+        <p class="footer-copyright">
+            © 2025 Cool Hand Coffee Roasters
+        </p>
+
+        <!-- Contact Information -->
+        <div class="footer-contact">
+            <span>123 Coffee Street, Dublin, Ireland</span>
+            <a href="mailto:contact@coolhandcoffee.ie">contact@coolhandcoffee.ie</a>
+            <a href="tel:+35312345678">+353 1 234 5678</a>
+        </div>
+
+        <!-- Policy Links -->
+        <div class="footer-links">
+            <a href="#privacy-policy">Privacy Policy</a>
+            <span>|</span>
+            <a href="#terms-of-service">Terms of Service</a>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="footer-social">
+            <a href="https://www.instagram.com/coolhandcoffeeroasters" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/coolhandcoffeeroasters" target="_blank" class="social-icon">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
