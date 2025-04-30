@@ -1,0 +1,2339 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <title>Espresso Roast - Sky Mountain Coffee</title>
+        <link rel="dns-prefetch preconnect" href="https://cdn11.bigcommerce.com/s-9r2evdek4b" crossorigin><link rel="dns-prefetch preconnect" href="https://fonts.googleapis.com/" crossorigin><link rel="dns-prefetch preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <meta property="product:price:amount" content="15.95" /><meta property="product:price:currency" content="USD" /><meta property="og:url" content="https://skymountaincoffee.com/espresso-roast/" /><meta property="og:site_name" content="Sky Mountain Coffee" /><meta name="keywords" content="Espresso, Espresso Roast, Espresso, Coffee, Dark, Bold, Smoky"><meta name="description" content="A rich espresso with layered notes of caramelized sugar, currant and subtle spice."><link rel='canonical' href='https://skymountaincoffee.com/espresso-roast/' /><meta name='platform' content='bigcommerce.stencil' /><meta property="og:type" content="product" />
+<meta property="og:title" content="Espresso Roast" />
+<meta property="og:description" content="A rich espresso with layered notes of caramelized sugar, currant and subtle spice." />
+<meta property="og:image" content="https://cdn11.bigcommerce.com/s-9r2evdek4b/products/114/images/627/2024_Coffee_Bag-Espresso_Blend__62394.1736977604.386.513.jpg?c=2" />
+<meta property="og:availability" content="instock" />
+<meta property="pinterest:richpins" content="enabled" />
+        
+         
+
+        <link href="https://cdn11.bigcommerce.com/s-9r2evdek4b/product_images/favicon-32.png?t=1525970556" rel="shortcut icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+        <script>
+            // Change document class from no-js to js so we can detect this in css
+            document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+        </script>
+
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+        <link data-stencil-stylesheet href="https://cdn11.bigcommerce.com/s-9r2evdek4b/stencil/905f8470-a76c-0138-790f-0242ac110010/e/7dcd1aa0-d0d8-013c-8378-764da8532496/css/theme-2eca2600-e01d-013d-57e2-7e7e30b91906.css" rel="stylesheet">
+        <link data-stencil-stylesheet href="https://cdn11.bigcommerce.com/s-9r2evdek4b/stencil/905f8470-a76c-0138-790f-0242ac110010/e/7dcd1aa0-d0d8-013c-8378-764da8532496/css/vault-2eca2600-e01d-013d-57e2-7e7e30b91906.css" rel="stylesheet">
+        <link data-stencil-stylesheet href="https://cdn11.bigcommerce.com/s-9r2evdek4b/stencil/905f8470-a76c-0138-790f-0242ac110010/e/7dcd1aa0-d0d8-013c-8378-764da8532496/css/custom-2eca2600-e01d-013d-57e2-7e7e30b91906.css" rel="stylesheet">
+
+        <!-- Start Tracking Code for analytics_facebook -->
+
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('set', 'autoConfig', 'false', '1199882363710710');
+fbq('dataProcessingOptions', ['LDU'], 0, 0);
+fbq('init', '1199882363710710', {"external_id":"33f0159d-e31b-4c1d-bdf7-d9612b0fa717"});
+fbq('set', 'agent', 'bigcommerce', '1199882363710710');
+
+function trackEvents() {
+    var pathName = window.location.pathname;
+
+    fbq('track', 'PageView', {}, "");
+
+    // Search events start -- only fire if the shopper lands on the /search.php page
+    if (pathName.indexOf('/search.php') === 0 && getUrlParameter('search_query')) {
+        fbq('track', 'Search', {
+            content_type: 'product_group',
+            content_ids: [],
+            search_string: getUrlParameter('search_query')
+        });
+    }
+    // Search events end
+
+    // Wishlist events start -- only fire if the shopper attempts to add an item to their wishlist
+    if (pathName.indexOf('/wishlist.php') === 0 && getUrlParameter('added_product_id')) {
+        fbq('track', 'AddToWishlist', {
+            content_type: 'product_group',
+            content_ids: []
+        });
+    }
+    // Wishlist events end
+
+    // Lead events start -- only fire if the shopper subscribes to newsletter
+    if (pathName.indexOf('/subscribe.php') === 0 && getUrlParameter('result') === 'success') {
+        fbq('track', 'Lead', {});
+    }
+    // Lead events end
+
+    // Registration events start -- only fire if the shopper registers an account
+    if (pathName.indexOf('/login.php') === 0 && getUrlParameter('action') === 'account_created') {
+        fbq('track', 'CompleteRegistration', {}, "");
+    }
+    // Registration events end
+
+    
+
+    function getUrlParameter(name) {
+        var cleanName = name.replace(/[\[]/, '\[').replace(/[\]]/, '\]');
+        var regex = new RegExp('[\?&]' + cleanName + '=([^&#]*)');
+        var results = regex.exec(window.location.search);
+        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    }
+}
+
+if (window.addEventListener) {
+    window.addEventListener("load", trackEvents, false)
+}
+</script>
+<noscript><img height="1" width="1" style="display:none" alt="null" src="https://www.facebook.com/tr?id=1199882363710710&ev=PageView&noscript=1&a=plbigcommerce1.2&eid="/></noscript>
+
+<!-- End Tracking Code for analytics_facebook -->
+
+<!-- Start Tracking Code for analytics_siteverification -->
+
+<meta name="p:domain_verify" content="081083e50354fc0feb3cbf966725bfee"/>
+
+<meta name="google-site-verification" content="pb0eX-sJWqxuv6T31aUQbIoZNV-xhV8_4d8aUcZdFeQ" />
+
+<meta name="google-site-verification" content="iYupmWT9e40OIINwCcsupWqV9U9-8ykkkPKbJLjaZ_o" />
+
+<!-- End Tracking Code for analytics_siteverification -->
+
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script type="text/javascript">
+var BCData = {"product_attributes":{"sku":null,"upc":null,"mpn":null,"gtin":null,"weight":null,"base":true,"image":null,"stock":null,"instock":true,"stock_message":null,"purchasable":true,"purchasing_message":null,"price":{"without_tax":{"formatted":"$15.95","value":15.95,"currency":"USD"},"tax_label":"Tax"}}};
+</script>
+
+<script nonce="">
+(function () {
+    var xmlHttp = new XMLHttpRequest();
+
+    xmlHttp.open('POST', 'https://bes.gcp.data.bigcommerce.com/nobot');
+    xmlHttp.setRequestHeader('Content-Type', 'application/json');
+    xmlHttp.send('{"store_id":"999993283","timezone_offset":"-4.0","timestamp":"2025-04-29T09:16:28.89447900Z","visit_id":"463eae21-e839-4234-898a-1fd8d5f9a7df","channel_id":1}');
+})();
+</script>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+        <!-- snippet location htmlhead -->
+    </head>
+    <body class="product">
+      <!-- ACTIVE SHOPNAV DIM PAGE -->
+      <div id="shopnav-dim-page" style="display: none;">
+        <div style="top: 50%; left: 50%; display: none;" id="dialog" class="window">
+          <div id="san"></div>
+        </div>
+        <div style="width: 2478px; font-size: 32pt; color:white; height: 1202px; display: none; opacity: 0.4;" id="mask"></div>
+      </div>
+      <!-- END ACTIVE SHOPNAV DIM PAGE -->
+        <!-- snippet location header -->
+        <svg data-src="https://cdn11.bigcommerce.com/s-9r2evdek4b/stencil/905f8470-a76c-0138-790f-0242ac110010/e/7dcd1aa0-d0d8-013c-8378-764da8532496/img/icon-sprite.svg" class="icons-svg-sprite"></svg>
+
+
+        <header class="header header-logo--left" role="banner">
+    <a href="#" class="mobileMenu-toggle" data-mobile-menu-toggle="menu">
+        <span class="mobileMenu-toggleIcon">Toggle menu</span>
+    </a>
+
+  <div class="logo-user-section container">
+        <div class="header-logo header-logo--left">
+            <a href="https://skymountaincoffee.com/">
+            <div class="header-logo-image-container">
+                <img class="header-logo-image" src="https://cdn11.bigcommerce.com/s-9r2evdek4b/images/stencil/180x72/sky_mountain_coffee_logo.242x100_1525970555__92584.original.png" alt="Sky Mountain Coffee" title="Sky Mountain Coffee">
+            </div>
+</a>
+        </div>
+        <nav class="navUser">
+    <ul class="navUser-section navUser-section--alt">
+
+        <div class="dropdown dropdown--quickSearch desktop" id="quickSearch" aria-hidden="true" tabindex="-1" data-prevent-quick-search-close>
+            <div class="container">
+  <a href="#" class="quickSearch-mobileToggle" title="Submit Search" alt="Submit Search">
+      <span class="mobileMenu-toggleIcon"></span>
+  </a>
+    <form class="form" action="/search.php">
+        <fieldset class="form-fieldset">
+            <div class="form-field">
+                <label class="is-srOnly" for="search_query">Search</label>
+                <input class="form-input" data-search-quick name="search_query" id="search_query" data-error-message="Search field cannot be empty." placeholder="Search" autocomplete="off">
+                <!-- <input class="button button--primary form-prefixPostfix-button--postfix" type="submit" value=""><svg class="header-icon search-icon"><use xlink:href="#icon-search"></use></svg> -->
+            </div>
+        </fieldset>
+        <div class="search-icon submit">
+          <input title="Submit Search" alt="Submit Search" class="button button--primary form-prefixPostfix-button--postfix" type="submit" value="">
+          <svg class="header-icon search-icon" title="submit" alt="submit"><use xlink:href="#icon-search"></use></svg>
+        </div>
+    </form>
+    <section class="quickSearchResults" data-bind="html: results"></section>
+</div>
+        </div>
+
+        <div class="user-icons">
+          <li class="navUser-item navUser-item--cart user-icons">
+              <a
+                  class="navUser-action"
+                  data-cart-preview
+                  data-dropdown="cart-preview-dropdown"
+                  data-options="align:right"
+                  href="/cart.php"
+                  title="Cart">
+                  <span class="navUser-item-cartLabel"><svg class="header-icon cart-icon"><use xlink:href="#icon-cart"></use></svg></span> <span class="countPill cart-quantity"></span>
+              </a>
+
+              <div class="dropdown-menu" id="cart-preview-dropdown" data-dropdown-content aria-hidden="true"></div>
+          </li>
+
+          
+
+        <a title="Compare Items" class="navUser-action navUser-item--compare" href="/compare" data-compare-nav><svg class="header-icon compare-icon"><use xlink:href="#icon-compare"></use></svg><span class="countPill countPill--positive countPill--alt compare"></span></a>
+
+        <!-- <li class="navUser-item navUser-item--account user-icons account"> -->
+                    <!-- <a class="navUser-action" href="/login.php"><svg class="header-icon account-icon"><use xlink:href="#icon-account"></use></svg></a> -->
+                    <!-- <ul class="account-link enabled"> -->
+    <li class="navUser-item navUser-item--account user-icons account">
+        <a class="navUser-action account signin-list" title="User Toolbox" alt="User Toolbox" href="/login.php"><svg class="header-icon account-icon"><use xlink:href="#icon-account"></use></svg></a>
+        <!-- <a class="navUser-action login" href="/login.php">Sign in</a> -->
+        <div class="dropdown-menu signin-list" id="account-dropdown-signin-list">
+          <!-- <h2 class="container-header">Account Info</h2> -->
+            <nav class="navBar navBar--sub navBar--account signin-list">
+    <ul class="navBar-section signout-list">
+      <li>
+        <a class="navBar-action signout-list" href="/login.php">Sign in  </a>
+          <span class="navUser-or"> or </span>
+          <a class="navBar-action signout-list" href="/login.php?action=create_account">  Register</a></li>
+    </ul>
+</nav>
+            <!-- <hr class="left full-width" /> -->
+            <!-- { {> components / common / currency-selector-dropdown } } -->
+            <!-- <a class="button button--primary signin-register logout-button" href="/login.php">Sign in</a> -->
+        </div>
+     </li>
+<!-- </ul> -->
+        <!-- </li> -->
+
+        <li class="navUser-item quicksearch mobile">
+            <a class="navUser-action navUser-action--quickSearch desktop-toggle" href="#" data-search="quickSearch" aria-controls="quickSearch" aria-expanded="false"><svg class="header-icon search-icon"><use xlink:href="#icon-search"></use></svg></a>
+        </li>
+
+    </ul>
+    </div>
+
+</nav>
+  </div>
+   <div data-content-region="header_bottom"></div>
+    <div id="menu-wrapper">
+        <div class="navPages-container" id="menu" data-menu>
+          <div class="navPages-wider desktop">
+  <div class="nav-minus-logo">
+  <div class="mega-cat-nav ">
+    <li class="navPages-item navPages-item-page container-header btn">
+      <a class="navPages-action">
+        <svg class="mega-menu-icon open"><use xlink:href="#icon-v-menu" /></svg><svg class="mega-menu-icon close"><use xlink:href="#icon-close" /><span class="burger-menu">Shop</span><span class="burger-menu fixed">Menu</span>
+      </a>
+      <div class="clear"></div>
+    </li>
+    <nav class="navPages">
+      <div class="mega-cat-dropdown">
+        <div class="inner">
+
+        <div id="page-wrapper">
+        <div class="category-list">
+          <!--<h2 class="container-header mobile">Categories</h2>-->
+          <li class="navPages-item top-level categories activePage">
+                  <a class="navPages-action navPages-action-depth-max has-subMenu is-root second-level-parent sideNavTopLevel  activePage" href="https://skymountaincoffee.com/roasted-coffee/">
+        Roasted Coffee <i class="icon navPages-action-moreIcon topLevel" aria-hidden="true"><svg><use xlink:href="#icon-chevron-down" /></svg></i>
+    </a>
+    <div class="navPage-subMenu navPage-subMenu-horizontal second-level-flyout" id="navPages-24" aria-hidden="true" tabindex="-1">
+  <div class="category-title">
+    <!--<h2><a class="category-title" href="https://skymountaincoffee.com/roasted-coffee/">Roasted Coffee</a></h2>-->
+    <div class="flyout-pagination-container top">
+      <a class="navPages-action previous">
+        <i class="icon prev" aria-hidden="true">
+          <svg><use xlink:href="#icon-circle-left" /></svg>
+        </i>
+      </a>
+      <!-- <span class="dots"></span> -->
+      <a class="navPages-action next">
+        <i class="icon next" aria-hidden="true">
+          <svg><use xlink:href="#icon-circle-right" /></svg>
+        </i>
+      </a>
+    </div>
+  </div>
+  <div class="flyout-pagination-container bottom">
+    <a class="navPages-action previous">
+      <i class="icon prev" aria-hidden="true">
+        <svg><use xlink:href="#icon-chevron-left" /></svg>
+      </i>
+    </a>
+    <span class="dots"></span>
+    <a class="navPages-action next">
+      <i class="icon next" aria-hidden="true">
+        <svg><use xlink:href="#icon-chevron-left" /></svg>
+      </i>
+    </a>
+  </div>
+    <ul class="navPage-subMenu-list all-second-level-plus-container flyout-page-wrapper">
+            <li class="navPage-subMenu-item-child second-level">
+                    <a class="navPage-subMenu-action navPages-action navPages-action-depth-max has-subMenu second-level" href="https://skymountaincoffee.com/roasted-coffee/roast-type/">
+                        Roast Type <i class="icon navPages-action-moreIcon second-level" aria-hidden="true"><svg><use xlink:href="#icon-chevron-down" /></svg></i>
+                    </a>
+                    <div class="navPage-subMenu navPage-subMenu-horizontal third-level-flyout" id="navPages-42" aria-hidden="true" tabindex="-1">
+    <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item-child third-level">
+                    <a class="navPage-subMenu-action navPages-action" href="https://skymountaincoffee.com/roasted-coffee/roast-type/dark/">Dark</a>
+            </li>
+            <li class="navPage-subMenu-item-child third-level">
+                    <a class="navPage-subMenu-action navPages-action" href="https://skymountaincoffee.com/roasted-coffee/roast-type/light/">Light</a>
+            </li>
+            <li class="navPage-subMenu-item-child third-level">
+                    <a class="navPage-subMenu-action navPages-action" href="https://skymountaincoffee.com/roasted-coffee/roast-type/light-medium/">Light Medium</a>
+            </li>
+            <li class="navPage-subMenu-item-child third-level">
+                    <a class="navPage-subMenu-action navPages-action" href="https://skymountaincoffee.com/roasted-coffee/roast-type/medium/">Medium</a>
+            </li>
+            <li class="navPage-subMenu-item-child third-level">
+                    <a class="navPage-subMenu-action navPages-action" href="https://skymountaincoffee.com/roasted-coffee/roast-type/medium-dark/">Medium Dark</a>
+            </li>
+        <li class="navPage-subMenu-item-paren view-all">
+            <a class="navPage-subMenu-action navPages-action navPages-action-depth-max view-all" href="https://skymountaincoffee.com/roasted-coffee/roast-type/">View All</a>
+        </li>
+    </ul>
+</div>
+            </li>
+            <li class="navPage-subMenu-item-child second-level">
+                    <a class="navPage-subMenu-action navPages-action navPages-action-depth-max has-subMenu second-level" href="https://skymountaincoffee.com/country-of-origin/">
+                        Country of Origin <i class="icon navPages-action-moreIcon second-level" aria-hidden="true"><svg><use xlink:href="#icon-chevron-down" /></svg></i>
+                    </a>
+                    <div class="navPage-subMenu navPage-subMenu-horizontal third-level-flyout" id="navPages-43" aria-hidden="true" tabindex="-1">
+    <ul class="navPage-subMenu-list">
+            <li class="navPage-subMenu-item-child third-level">
+                    <a class="navPage-subMenu-action navPages-action" href="https://skymountaincoffee.com/roasted-coffee/country-of-origin/africa/">Africa</a>
+            </li>
+            <li class="navPage-subMenu-item-child third-level">
+                    <a class="navPage-subMenu-action navPages-action" href="https://skymountaincoffee.com/roasted-coffee/country-of-origin/central-and-south-america/">Central and South America</a>
+            </li>
+            <li class="navPage-subMenu-item-child third-level">
+                    <a class="navPage-subMenu-action navPages-action" href="https://skymountaincoffee.com/roasted-coffee/country-of-origin/indonesia/">Indonesia</a>
+            </li>
+        <li class="navPage-subMenu-item-paren view-all">
+            <a class="navPage-subMenu-action navPages-action navPages-action-depth-max view-all" href="https://skymountaincoffee.com/country-of-origin/">View All</a>
+        </li>
+    </ul>
+</div>
+            </li>
+            <li class="navPage-subMenu-item-child second-level">
+                    <a class="navPage-subMenu-action navPages-action second-level" href="https://skymountaincoffee.com/shop-all/roasted-coffee/blends-and-roasts/">Blends and Roasts</a>
+                    <!-- <a class="navPage-subMenu-action navPages-action navPages-action-depth-max view-all" href="https://skymountaincoffee.com/shop-all/roasted-coffee/blends-and-roasts/">View All</a> -->
+            </li>
+            <li class="navPage-subMenu-item-child second-level">
+                    <a class="navPage-subMenu-action navPages-action second-level" href="https://skymountaincoffee.com/shop-all/roasted-coffee/decaffeinated/">Decaffeinated</a>
+                    <!-- <a class="navPage-subMenu-action navPages-action navPages-action-depth-max view-all" href="https://skymountaincoffee.com/shop-all/roasted-coffee/decaffeinated/">View All</a> -->
+            </li>
+        <!-- <div class="flyout-pagination-container bottom">
+          <a class="navPages-action previous">
+            <i class="icon prev" aria-hidden="true">
+              <svg><use xlink:href="#icon-chevron-left" /></svg>
+            </i>
+          </a>
+          <span class="dots"></span>
+          <a class="navPages-action next">
+            <i class="icon next" aria-hidden="true">
+              <svg><use xlink:href="#icon-chevron-left" /></svg>
+            </i>
+          </a>
+        </div> -->
+
+    </ul>
+</div>
+          </li>
+          <li class="navPages-item top-level categories">
+                  <a class="navPages-action single-level sideNavTopLevel " href="https://skymountaincoffee.com/loose-leaf-teas/">Loose Leaf Teas</a>
+          </li>
+          <li class="navPages-item top-level categories">
+                  <a class="navPages-action single-level sideNavTopLevel " href="https://skymountaincoffee.com/logo-swag/">Logo Swag</a>
+          </li>
+        </div>
+      <div class="pagination-container"><a class="navPages-action previous"><i class="icon prev" aria-hidden="true"><svg><use xlink:href="#icon-chevron-left" /></svg></i></a><span class="dots"></span><a class="navPages-action next"><i class="icon next" aria-hidden="true"><svg><use xlink:href="#icon-chevron-left" /></svg></i></a></div>
+      <hr class="sidenav"/>
+        </div>
+        </div>
+
+        <div class="sticky-navpages">
+          <!--<h2 class="container-header mobile">Navigation</h2>-->
+            <li class="navPages-item top-level pages mega-nav-pages">
+                <div class="nav-page-list mega-nav-page-list">
+<a class="navPages-action navPages-action-depth-max has-subMenu is-root second-level-parent topLevel sideNavTopLevel" href="https://skymountaincoffee.com/about-us/">
+    About Us <i class="icon mega-nav-pages" aria-hidden="true"><svg><use xlink:href="#icon-chevron-down" /></svg></i>
+    <i class="icon navPages-action-moreIcon fixed-dropdown" aria-hidden="true"><svg><use xlink:href="#icon-chevron-down" /></svg></i>
+</a>
+<div class="navPage-subMenu navPage-subMenu-horizontal second-level-flyout" id="navPages-" aria-hidden="true" tabindex="-1">
+    <ul class="navPage-subMenu-list">
+
+            <li class="navPage-subMenu-item-child second-level">
+                    <a class="navPage-subMenu-action navPages-action second-level" href="https://skymountaincoffee.com/coffee-101/">Coffee 101</a>
+            </li>
+            <li class="navPage-subMenu-item-child second-level">
+                    <a class="navPage-subMenu-action navPages-action second-level" href="https://skymountaincoffee.com/order-faq/">Order FAQ</a>
+            </li>
+    </ul>
+</div>
+<div class="clear"></div>
+</div>
+            </li>
+            <li class="navPages-item top-level pages mega-nav-pages">
+                <div class="nav-page-list mega-nav-page-list">
+<a class="navPages-action sideNavTopLevel" href="https://skymountaincoffee.com/cobranding/">Cobranding</a>
+<div class="clear"></div>
+</div>
+            </li>
+            <li class="navPages-item top-level pages mega-nav-pages">
+                <div class="nav-page-list mega-nav-page-list">
+<a class="navPages-action sideNavTopLevel" href="https://skymountaincoffee.com/coffee-talk/">Coffee Talk</a>
+<div class="clear"></div>
+</div>
+            </li>
+            <li class="navPages-item top-level pages mega-nav-pages">
+                <div class="nav-page-list mega-nav-page-list">
+<a class="navPages-action sideNavTopLevel" href="https://skymountaincoffee.com/contact-us/">Contact Us</a>
+<div class="clear"></div>
+</div>
+            </li>
+        </div>
+
+        <!-- BRANDS VISIBILITY -->
+        <div class="brands brands-hidden sticky-brands-hidden">
+          <h2 class="container-header mobile">Brands</h2>
+                    <li class="navPages-item mobile view-all brands">
+                        <a class="navPages-action" href="/brands/">View all Brands</a>
+                    </li>
+        </div>
+
+            <div class="clear"></div>
+
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="nav-right-fixed">
+    <div class="nav-right">
+    <ul class="navPages-list nav-page-list one  navPages-list-depth-max">
+        <ul class="navPages-list nav-page-list two">
+           <li class="navPages-item">
+               <div class="nav-page-list">
+<a class="navPages-action navPages-action-depth-max has-subMenu is-root topLevel" href="https://skymountaincoffee.com/about-us/">
+    About Us <i class="fa fa-chevron-down main-nav desktop-only" aria-hidden="true"></i>
+    <i class="icon navPages-action-moreIcon fixed-dropdown mobile-only" aria-hidden="true"><svg><use xlink:href="#icon-chevron-down" /></svg></i>
+</a>
+<div class="navPage-subMenu" id="navPages-" aria-hidden="true" tabindex="-1">
+    <ul class="navPage-subMenu-list">
+
+            <li class="navPage-subMenu-item">
+                    <a class="navPage-subMenu-action navPages-action" href="https://skymountaincoffee.com/coffee-101/">Coffee 101</a>
+            </li>
+            <li class="navPage-subMenu-item">
+                    <a class="navPage-subMenu-action navPages-action" href="https://skymountaincoffee.com/order-faq/">Order FAQ</a>
+            </li>
+    </ul>
+</div>
+<div class="clear"></div>
+</div>
+           </li>
+           <li class="navPages-item">
+               <div class="nav-page-list">
+<a class="navPages-action" href="https://skymountaincoffee.com/cobranding/">Cobranding</a>
+<div class="clear"></div>
+</div>
+           </li>
+           <li class="navPages-item">
+               <div class="nav-page-list">
+<a class="navPages-action" href="https://skymountaincoffee.com/coffee-talk/">Coffee Talk</a>
+<div class="clear"></div>
+</div>
+           </li>
+           <li class="navPages-item">
+               <div class="nav-page-list">
+<a class="navPages-action" href="https://skymountaincoffee.com/contact-us/">Contact Us</a>
+<div class="clear"></div>
+</div>
+           </li>
+   </ul>
+
+    </ul>
+    </div>
+
+
+
+</nav>
+
+</div>
+
+</div>
+</div>
+          <div class="clear"></div>
+        </div>
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+
+</header>
+        <div class="body" data-currency-code="USD">
+     
+    <div class="container">
+            <ul class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+        <li class="breadcrumb " itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <a href="https://skymountaincoffee.com/" class="breadcrumb-label" itemprop="item"><span itemprop="name">Inicio</span></a>
+            <meta itemprop="position" content="1" />
+        </li>
+        <li class="breadcrumb " itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <a href="https://skymountaincoffee.com/roasted-coffee/" class="breadcrumb-label" itemprop="item"><span itemprop="name">Roasted Coffee</span></a>
+            <meta itemprop="position" content="2" />
+        </li>
+        <li class="breadcrumb is-active" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <meta itemprop="item" content="https://skymountaincoffee.com/espresso-roast/">
+                <span class="breadcrumb-label" itemprop="name">Espresso Roast</span>
+            <meta itemprop="position" content="3" />
+        </li>
+</ul>
+
+
+    <div itemscope itemtype="http://schema.org/Product">
+        <div class="productView" >
+
+    
+
+    <section class="productView-images" data-image-gallery>
+        <figure class="productView-image"
+                data-image-gallery-main
+                data-zoom-image="https://cdn11.bigcommerce.com/s-9r2evdek4b/images/stencil/1280x1280/products/114/627/2024_Coffee_Bag-Espresso_Blend__62394.1736977604.jpg?c=2"
+                >
+            <div class="productView-img-container">
+                    <a href="https://cdn11.bigcommerce.com/s-9r2evdek4b/images/stencil/1280x1280/products/114/627/2024_Coffee_Bag-Espresso_Blend__62394.1736977604.jpg?c=2">
+
+                <img class="productView-image--default lazyload"
+                     data-sizes="auto"
+                     src="https://cdn11.bigcommerce.com/s-9r2evdek4b/stencil/905f8470-a76c-0138-790f-0242ac110010/e/7dcd1aa0-d0d8-013c-8378-764da8532496/img/loading.svg"
+                     data-src="https://cdn11.bigcommerce.com/s-9r2evdek4b/images/stencil/600x600/products/114/627/2024_Coffee_Bag-Espresso_Blend__62394.1736977604.jpg?c=2"
+                     alt="Our espresso roast is layered with notes of caramelized sugar, currant and subtle spice." title="Our espresso roast is layered with notes of caramelized sugar, currant and subtle spice." data-main-image>
+
+                    </a>
+            </div>
+        </figure>
+        
+        <div class="productView-thumbnails_container">
+            <ul class="productView-thumbnails">
+                <li class="productView-thumbnail">
+                    <a
+                        class="productView-thumbnail-link"
+                        href="https://cdn11.bigcommerce.com/s-9r2evdek4b/images/stencil/600x600/products/114/627/2024_Coffee_Bag-Espresso_Blend__62394.1736977604.jpg?c=2"
+                        data-image-gallery-item
+                        data-image-gallery-new-image-url="https://cdn11.bigcommerce.com/s-9r2evdek4b/images/stencil/600x600/products/114/627/2024_Coffee_Bag-Espresso_Blend__62394.1736977604.jpg?c=2"
+                        data-image-gallery-zoom-image-url="https://cdn11.bigcommerce.com/s-9r2evdek4b/images/stencil/1280x1280/products/114/627/2024_Coffee_Bag-Espresso_Blend__62394.1736977604.jpg?c=2">
+                        <img class="lazyload" data-sizes="auto" src="https://cdn11.bigcommerce.com/s-9r2evdek4b/stencil/905f8470-a76c-0138-790f-0242ac110010/e/7dcd1aa0-d0d8-013c-8378-764da8532496/img/loading.svg" data-src="https://cdn11.bigcommerce.com/s-9r2evdek4b/images/stencil/50x50/products/114/627/2024_Coffee_Bag-Espresso_Blend__62394.1736977604.jpg?c=2" alt="Our espresso roast is layered with notes of caramelized sugar, currant and subtle spice." title="Our espresso roast is layered with notes of caramelized sugar, currant and subtle spice.">
+                    </a>
+                </li>
+                <li class="productView-thumbnail">
+                    <a
+                        class="productView-thumbnail-link"
+                        href="https://cdn11.bigcommerce.com/s-9r2evdek4b/images/stencil/600x600/products/114/645/2024_Coffee_Bag-Back_Quarter_View__22415.1736977604.1280.1280__05308.1736978604.1280.1280__60690.1736978632.jpg?c=2"
+                        data-image-gallery-item
+                        data-image-gallery-new-image-url="https://cdn11.bigcommerce.com/s-9r2evdek4b/images/stencil/600x600/products/114/645/2024_Coffee_Bag-Back_Quarter_View__22415.1736977604.1280.1280__05308.1736978604.1280.1280__60690.1736978632.jpg?c=2"
+                        data-image-gallery-zoom-image-url="https://cdn11.bigcommerce.com/s-9r2evdek4b/images/stencil/1280x1280/products/114/645/2024_Coffee_Bag-Back_Quarter_View__22415.1736977604.1280.1280__05308.1736978604.1280.1280__60690.1736978632.jpg?c=2">
+                        <img class="lazyload" data-sizes="auto" src="https://cdn11.bigcommerce.com/s-9r2evdek4b/stencil/905f8470-a76c-0138-790f-0242ac110010/e/7dcd1aa0-d0d8-013c-8378-764da8532496/img/loading.svg" data-src="https://cdn11.bigcommerce.com/s-9r2evdek4b/images/stencil/50x50/products/114/645/2024_Coffee_Bag-Back_Quarter_View__22415.1736977604.1280.1280__05308.1736978604.1280.1280__60690.1736978632.jpg?c=2" alt="Espresso Roast" title="Espresso Roast">
+                    </a>
+                </li>
+        </ul>
+        </div>
+        
+    </section>
+    
+    <section class="productView-details productView-infoContainer">
+        <div class="productView-product">
+            <h1 class="productView-title" itemprop="name">Espresso Roast</h1>
+            <div class="productView-rating">
+            </div>
+            <div class="productView-price">
+                    
+        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
+            MSRP:
+            <span data-product-rrp-price-without-tax class="price price--rrp"> 
+                
+            </span>
+        </div>
+        <div class="price-section price-section--withoutTax non-sale-price--withoutTax" style="display: none;">
+            Was:
+            <span data-product-non-sale-price-without-tax class="price price--non-sale">
+                
+            </span>
+        </div>
+        <div class="price-section price-section--withoutTax" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <span class="price-label" >
+                
+            </span>
+            <span class="price-now-label" style="display: none;">
+                Now:
+            </span>
+            <span data-product-price-without-tax class="price price--withoutTax">$15.95</span>
+                <meta itemprop="availability" itemtype="http://schema.org/ItemAvailability"
+                    content="http://schema.org/InStock">
+                <meta itemprop="itemCondition" itemtype="http://schema.org/OfferItemCondition" content="http://schema.org/Condition">
+                <div itemprop="priceSpecification" itemscope itemtype="http://schema.org/PriceSpecification">
+                    <meta itemprop="price" content="15.95">
+                    <meta itemprop="priceCurrency" content="USD">
+                    <meta itemprop="valueAddedTaxIncluded" content="false">
+                </div>
+        </div>
+         <div class="price-section price-section--saving price" style="display: none;">
+                <span class="price">(You save</span>
+                <span data-product-price-saved class="price price--saving">
+                    
+                </span>
+                <span class="price">)</span>
+         </div>
+            </div>
+            <div data-content-region="product_below_price"></div>
+            
+            
+            <div class="mobile-section-title_container">
+                <h1 class="productView-title_mobile" itemprop="name">Espresso Roast</h1>
+                
+                <div class="productView-price_mobile">
+                        
+        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
+            MSRP:
+            <span data-product-rrp-price-without-tax class="price price--rrp"> 
+                
+            </span>
+        </div>
+        <div class="price-section price-section--withoutTax non-sale-price--withoutTax" style="display: none;">
+            Was:
+            <span data-product-non-sale-price-without-tax class="price price--non-sale">
+                
+            </span>
+        </div>
+        <div class="price-section price-section--withoutTax" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <span class="price-label" >
+                
+            </span>
+            <span class="price-now-label" style="display: none;">
+                Now:
+            </span>
+            <span data-product-price-without-tax class="price price--withoutTax">$15.95</span>
+                <meta itemprop="availability" itemtype="http://schema.org/ItemAvailability"
+                    content="http://schema.org/InStock">
+                <meta itemprop="itemCondition" itemtype="http://schema.org/OfferItemCondition" content="http://schema.org/Condition">
+                <div itemprop="priceSpecification" itemscope itemtype="http://schema.org/PriceSpecification">
+                    <meta itemprop="price" content="15.95">
+                    <meta itemprop="priceCurrency" content="USD">
+                    <meta itemprop="valueAddedTaxIncluded" content="false">
+                </div>
+        </div>
+         <div class="price-section price-section--saving price" style="display: none;">
+                <span class="price">(You save</span>
+                <span data-product-price-saved class="price price--saving">
+                    
+                </span>
+                <span class="price">)</span>
+         </div>
+                </div>
+                
+            </div>
+            <dl class="productView-info">
+
+                   <div class="productView-info-bulkPricing">
+                                          </div>
+
+                <div class="line-item-details custom-fields">
+                    <dt class="productView-info-name">Roast Level:</dt>
+                    <dd class="productView-info-value">Dark</dd>
+                </div>
+                <div class="line-item-details custom-fields">
+                    <dt class="productView-info-name">Flavor Notes:</dt>
+                    <dd class="productView-info-value">Espresso Roast is a medium bodied specialty grade arabica coffee blend exhibiting layered notes of caramelized sugar, currant and subtle spice.</dd>
+                </div>
+            </dl>
+        </div>
+    </section>
+
+    <section class="productView-details">
+        <div class="productView-options">
+            <form class="form" method="post" action="https://skymountaincoffee.com/cart.php" enctype="multipart/form-data"
+                  data-cart-item-add>
+                <input type="hidden" name="action" value="add">
+                <input type="hidden" name="product_id" value="114"/>
+                <div data-product-option-change style="display:none;">
+                        <div class="form-field" data-product-attribute="set-radio">
+    <label class="form-label form-label--alternate form-label--inlineSmall">
+        Grind Type:
+
+            <small>*</small>
+    </label>
+
+        <input
+            class="form-radio"
+            type="radio"
+            id="attribute_radio_232_98"
+            name="attribute[232]"
+            value="98"
+                checked
+                data-default
+            required>
+        <label data-product-attribute-value="98" class="form-label" for="attribute_radio_232_98">Whole Bean (Unground)</label>
+        <input
+            class="form-radio"
+            type="radio"
+            id="attribute_radio_232_100"
+            name="attribute[232]"
+            value="100"
+            required>
+        <label data-product-attribute-value="100" class="form-label" for="attribute_radio_232_100">Auto Drip (Ground)</label>
+</div>
+
+                </div>
+                <div class="form-field form-field--stock u-hiddenVisually">
+                    <label class="form-label form-label--alternate">
+                        Current Stock:
+                        <span data-product-stock></span>
+                    </label>
+                </div>
+                        <div class="form-field form-field--increments">
+        <label class="form-label form-label--alternate"
+               for="qty[]">Quantity:</label>
+            <div class="form-increment" data-quantity-change>
+                <button class="button button--icon" data-action="dec">
+                    <span class="is-srOnly">Decrease Quantity:</span>
+                    <i class="icon" aria-hidden="true">
+                        <svg>
+                            <use xlink:href="#icon-keyboard-arrow-down"/>
+                        </svg>
+                    </i>
+                </button>
+                <input class="form-input form-input--incrementTotal"
+                       id="qty[]"
+                       name="qty[]"
+                       type="tel"
+                       value="1"
+                       data-quantity-min="0"
+                       data-quantity-max="0"
+                       min="1"
+                       pattern="[0-9]*"
+                       aria-live="polite">
+                <button class="button button--icon" data-action="inc">
+                    <span class="is-srOnly">Increase Quantity:</span>
+                    <i class="icon" aria-hidden="true">
+                        <svg>
+                            <use xlink:href="#icon-keyboard-arrow-up"/>
+                        </svg>
+                    </i>
+                </button>
+            </div>
+    </div>
+
+<div class="alertBox productAttributes-message" style="display:none">
+    <div class="alertBox-column alertBox-icon">
+        <icon glyph="ic-success" class="icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"></path></svg></icon>
+    </div>
+    <p class="alertBox-column alertBox-message"></p>
+</div>
+    <div class="form-action">
+        <input id="form-action-addToCart" data-wait-message="Adding to cart…" class="button button--primary" type="submit"
+            value="Add to Cart">
+    </div>
+            </form>
+                <form action="/wishlist.php?action=add&amp;product_id=114" class="form form-wishlist form-action" data-wishlist-add method="post">
+    <a aria-controls="wishlist-dropdown" aria-expanded="false" class="button dropdown-menu-button" data-dropdown="wishlist-dropdown">
+        <span>Add to Wish List</span>
+        <i aria-hidden="true" class="icon">
+            <svg>
+                <use xlink:href="#icon-chevron-down" />
+            </svg>
+        </i>
+    </a>
+    <ul aria-hidden="true" class="dropdown-menu" data-dropdown-content id="wishlist-dropdown" tabindex="-1">
+        
+        <li>
+            <input class="button" type="submit" value="Add to My Wish List">
+        </li>
+        <li>
+            <a data-wishlist class="button" href="/wishlist.php?action=addwishlist&product_id=114">Create New Wish List</a>
+        </li>
+    </ul>
+</form>
+        </div>
+            <div class="addthis_toolbox addthis_32x32_style" addthis:url=""
+         addthis:title="">
+        <ul class="socialLinks">
+                <li class="socialLinks-item socialLinks-item--facebook">
+                    <a class="addthis_button_facebook icon icon--facebook" >
+
+                            <svg>
+                                <use xlink:href="#icon-facebook"/>
+                            </svg>
+
+
+
+
+
+
+
+                    </a>
+                </li>
+                <li class="socialLinks-item socialLinks-item--email">
+                    <a class="addthis_button_email icon icon--email" >
+
+
+                            <svg>
+                                <use xlink:href="#icon-envelope"/>
+                            </svg>
+
+
+
+
+
+
+                    </a>
+                </li>
+                <li class="socialLinks-item socialLinks-item--print">
+                    <a class="addthis_button_print icon icon--print" >
+
+
+
+                            <svg>
+                                <use xlink:href="#icon-print"/>
+                            </svg>
+
+
+
+
+
+                    </a>
+                </li>
+                <li class="socialLinks-item socialLinks-item--twitter">
+                    <a class="addthis_button_twitter icon icon--twitter" >
+
+
+
+
+                            <svg>
+                                <use xlink:href="#icon-twitter"/>
+                            </svg>
+
+
+
+
+                    </a>
+                </li>
+                <li class="socialLinks-item socialLinks-item--pinterest">
+                    <a class="addthis_button_pinterest icon icon--pinterest" >
+
+
+
+
+
+
+
+                            <svg>
+                                <use xlink:href="#icon-pinterest"/>
+                            </svg>
+
+                    </a>
+                </li>
+        </ul>
+        <script type="text/javascript"
+                defer src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e94ed470ee51e32"></script>
+        <script>
+            window.addEventListener('DOMContentLoaded', function() {
+                if (typeof(addthis) === "object") {
+                    addthis.toolbox('.addthis_toolbox');
+                }
+            });
+        </script>
+    </div>
+        <!-- snippet location product_details -->
+    </section>
+</div>
+
+<div id="previewModal" class="modal modal--large" data-reveal>
+    <a href="#" class="modal-close" aria-label="Close" role="button">
+        <span aria-hidden="true">&#215;</span>
+    </a>
+    <div class="modal-content"></div>
+    <div class="loadingOverlay"></div>
+</div>
+
+        <article class="productView-description">
+                <div id="accordion">
+    <h3 class="product-description"><span class="tab-title">Product Overview</span> <svg class="accordion-icon arrow down"><use xlink:href="#icon-v-down"></use></svg></h3>
+      <div class="" id="">
+        <h4><span>Cupping Notes</span></h4>
+<p><span>Medium body, rich with layered notes of caramelized sugar, chocolate and a hint of bergamot.</span></p>
+<h4><span>Bio</span></h4>
+<p><span>What can anyone say about their espresso blend. &nbsp;It's a secret! &nbsp;The goal was to create an espresso that given the opportunity could tell a short "flavor story" or settle into some steamed milk with ease. &nbsp;If you want to try something extra fun, brew it up as a pourover!</span></p>
+        <!-- snippet location product_description -->
+      </div>
+
+
+
+
+
+</div>
+
+
+<div class="product-global-static">
+    <h2 class="productView-title">Sky Mountain Coffee Guarantee</h2>
+    
+    <div class="product-global-static_list-container">
+        <ul class="list-dots">
+            <li class="list-items">
+                <div class="item-holder">
+                    <div class="heading">
+                        <h3>Roasted Fresh</h3>
+                    </div>
+                    <div class="item-description">
+                        <p>When you place your order with us, we roast your coffee within minutes. <strong>How's that for fresh?</strong></p>
+                    </div>
+                    
+                </div>
+            </li>
+            <li class="list-items">
+                <div class="item-holder">
+                    <div class="heading">
+                        <h3>Sealed Tight</h3>
+                    </div>
+                    <div class="item-description">
+                        <p>We package your beans using a one way valve bag, ensuring the <strong>freshest</strong> product upon arrival.</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li class="list-items">
+                <div class="item-holder">
+                    <div class="heading">
+                        <h3>Processed & Delivered</h3>    
+                    </div>
+                    <div class="item-description">
+                        <p>There are <strong>no shelves</strong> in our roasting facility! We process and ship your coffee as soon as it's packaged.</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        
+    </div>
+</div>        </article>
+
+      <div class="related-product-section">
+        <ul class="tabs" data-tab role="tablist">
+        <li class="tab is-active" role="presentational">
+            <a class="tab-title" href="#tab-related" role="tab" tabindex="0" aria-selected="true" controls="tab-related">Related Products</a>
+        </li>
+</ul>
+
+<div class="tabs-contents">
+    <div role="tabpanel" aria-hidden="false" class="tab-content has-jsContent is-active" id="tab-related">
+            <section class="productCarousel"
+    data-list-name=""
+    data-slick='{
+        "dots": false,
+        "infinite": false,
+        "mobileFirst": false,
+        "slidesToShow": 6,
+        "slidesToScroll": 3,
+        "responsive": [
+        {
+          "breakpoint": 980,
+          "settings": {
+            "slidesToShow": 4,
+            "slidesToScroll": 4
+          }
+        },
+        {
+          "breakpoint": 800,
+          "settings": {
+            "slidesToShow": 3,
+            "slidesToScroll": 3
+          }
+        },
+          {
+    	      "breakpoint": 550,
+            "settings": {
+              "slidesToShow": 2,
+              "slidesToScroll": 2
+            }
+          }
+        ]
+    }'>
+    <div class="productCarousel-slide">
+            <article class="card " >
+    <figure class="card-figure">
+            <a href="https://skymountaincoffee.com/french-roast/" >
+                <div class="card-img-container">
+                    <img class="card-image lazyload" data-sizes="auto" src="https://cdn11.bigcommerce.com/s-9r2evdek4b/stencil/905f8470-a76c-0138-790f-0242ac110010/e/7dcd1aa0-d0d8-013c-8378-764da8532496/img/loading.svg" data-src="https://cdn11.bigcommerce.com/s-9r2evdek4b/images/stencil/500x659/products/113/628/2024_Coffee_Bag-French_Roast__18769.1736977604.jpg?c=2" alt="Our French Roast is a bold coffee with an intense, rich flavor and a smoky, sweet finish." title="Our French Roast is a bold coffee with an intense, rich flavor and a smoky, sweet finish.">
+                </div>
+            </a>
+        <!--<figcaption class="card-figcaption desktop">-->
+        <!--    <div class="card-figcaption-body">-->
+        <!--        -->
+        <!--            -->
+        <!--                -->
+        <!--                    -->
+        <!--                        <a href="#" class="button button--small card-figcaption-button quickview" data-product-id="113">Quick view</a>-->
+        <!--                    -->
+        <!--                -->
+        <!--            -->
+        <!--        -->
+        <!--        -->
+        <!--        -->
+        <!--            -->
+        <!--                -->
+        <!--                    <a href="https://skymountaincoffee.com/french-roast/" data-event-type="product-click" class="button button--small card-figcaption-button" data-product-id="113">Choose Options</a>-->
+        <!--                -->
+        <!--                -->
+        <!--                -->
+        <!--                -->
+        <!--            -->
+        <!--        -->
+        <!--     </div>-->
+        <!--</figcaption> --> <!-- card-figcaption desktop -->
+    </figure>
+    <div class="card-body">
+        <h4 class="card-title">
+                <a href="https://skymountaincoffee.com/french-roast/" >French Roast</a>
+        </h4>
+        
+        <!--<div class="card-custom-items">-->
+        <!--    -->
+        <!--</div>-->
+
+        <div class="card-text" data-test-info-type="price">
+                
+        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
+            MSRP:
+            <span data-product-rrp-price-without-tax class="price price--rrp"> 
+                
+            </span>
+        </div>
+        <div class="price-section price-section--withoutTax non-sale-price--withoutTax" style="display: none;">
+            Was:
+            <span data-product-non-sale-price-without-tax class="price price--non-sale">
+                
+            </span>
+        </div>
+        <div class="price-section price-section--withoutTax" >
+            <span class="price-label" >
+                
+            </span>
+            <span class="price-now-label" style="display: none;">
+                Now:
+            </span>
+            <span data-product-price-without-tax class="price price--withoutTax">$15.95</span>
+        </div>
+        </div>
+            </div>
+    <figcaption class="card-figcaption mobile">
+        <div class="card-figcaption-body">
+                            <a href="#" class="button button--small card-figcaption-button quickview" data-product-id="113">Quick view</a>
+                        <a href="https://skymountaincoffee.com/french-roast/" data-event-type="product-click" class="button button--small card-figcaption-button" data-product-id="113">Choose Options</a>
+         </div>
+    </figcaption> <!-- card-figcaption mobile -->
+</article>
+    </div>
+</section>
+    </div>
+
+</div>
+      </div>
+
+    </div>
+
+
+    </div>
+    <div id="modal" class="modal" data-reveal data-prevent-quick-search-close>
+    <a href="#" class="modal-close" aria-label="Close" role="button">
+        <span aria-hidden="true">&#215;</span>
+    </a>
+    <div class="modal-content"></div>
+    <div class="loadingOverlay"></div>
+</div>
+    <div id="alert-modal" class="modal modal--alert modal--small" data-reveal data-prevent-quick-search-close>
+    <div class="swal2-icon swal2-error swal2-animate-error-icon"><span class="swal2-x-mark swal2-animate-x-mark"><span class="swal2-x-mark-line-left"></span><span class="swal2-x-mark-line-right"></span></span></div>
+
+    <div class="modal-content"></div>
+
+    <div class="button-container"><button type="button" class="confirm button" data-reveal-close>OK</button></div>
+</div>
+</div>
+        
+<div class="newsletter-subscription-section">
+  <article class="newsletter cta" data-section-type="newsletterSubscription">
+        <div class="half left">
+  <h2 class="newsletter-heading">Join our newsletter</h5>
+</div>
+
+<div class="half right">
+<form class="form" action="/subscribe.php" method="post">
+    <fieldset class="form-fieldset">
+        <input type="hidden" name="action" value="subscribe">
+        <input type="hidden" name="nl_first_name" value="bc">
+        <input type="hidden" name="check" value="1">
+        <div class="form-field">
+            <label class="form-label is-srOnly" for="nl_email">Email Address</label>
+            <div class="form-prefixPostfix wrap">
+                <input class="form-input" id="nl_email" name="nl_email" type="email" value="" placeholder="email address">
+                <input class="button button--primary form-prefixPostfix-button--postfix" type="submit" value="Subscribe">
+            </div>
+        </div>
+    </fieldset>
+</form>
+</div>
+    <div class="clear"></div>
+  </article>
+</div>
+
+<footer class="footer" role="contentinfo">
+    <div class="container">
+        <section class="footer-info">
+            <article class="footer-info-col footer-info-col--small-4" data-section-type="footer-webPages">
+                <h5 class="footer-info-heading">Navigate</h5>
+                <ul class="footer-info-list">
+                        <li>
+                            <a href="https://skymountaincoffee.com/about-us/">About Us</a>
+                        </li>
+                        <li>
+                            <a href="https://skymountaincoffee.com/cobranding/">Cobranding</a>
+                        </li>
+                        <li>
+                            <a href="https://skymountaincoffee.com/coffee-talk/">Coffee Talk</a>
+                        </li>
+                        <li>
+                            <a href="https://skymountaincoffee.com/contact-us/">Contact Us</a>
+                        </li>
+                            <li><a class="" href="/login.php">Sign in  </a>
+                                <span class="navUser-or"> or </span> <a class="" href="/login.php?action=create_account">  Register</a></li>
+                    <li>
+                        <a href="/sitemap.php">Sitemap</a>
+                    </li>
+                </ul>
+            </article>
+
+            <article class="footer-info-col footer-info-col--small-4 categories" data-section-type="footer-categories">
+                <h5 class="footer-info-heading">Categories</h5>
+                <ul class="footer-info-list categories">
+                        <li>
+                            <a href="https://skymountaincoffee.com/roasted-coffee/">Roasted Coffee</a>
+                        </li>
+                        <li>
+                            <a href="https://skymountaincoffee.com/loose-leaf-teas/">Loose Leaf Teas</a>
+                        </li>
+                        <li>
+                            <a href="https://skymountaincoffee.com/logo-swag/">Logo Swag</a>
+                        </li>
+                    <div class="footer-categories-pagination">
+                      <a class="navPages-action paginator previous arrow">
+                        <i class="icon prev" aria-hidden="true">
+                          <svg><use xlink:href="#icon-chevron-left" /></svg>
+                        </i>
+                        <span class="pagination-label">prev</span>
+                      </a>
+                      <span class="dots"></span>
+                      <a class="navPages-action paginator next arrow">
+                        <span class="pagination-label">next</span>
+                        <i class="icon next" aria-hidden="true">
+                          <svg><use xlink:href="#icon-chevron-left" /></svg>
+                        </i>
+                      </a>
+                    </div>
+                </ul>
+            </article>
+
+
+              <article class="footer-info-col footer-info-col--small-4" data-section-type="footer-webPages">
+                <h5 class="footer-info-heading">Connect With Us</h5>
+                                </article>
+    </div>
+
+    <div class="payment-icons-section">
+      <hr class="border"/>
+      <div class="footer-payment-icons">
+        <svg class="footer-payment-icon amex"><use xlink:href="#icon-logo-american-express"></use></svg>
+        <svg class="footer-payment-icon discover"><use xlink:href="#icon-logo-discover"></use></svg>
+        <svg class="footer-payment-icon mastercard"><use xlink:href="#icon-logo-mastercard"></use></svg>
+        <svg class="footer-payment-icon visa"><use xlink:href="#icon-logo-visa"></use></svg>
+    <div class="clear"></div>
+</div>
+    </div>
+
+    <div class="footer-bottom">
+      <article class="store-info" data-section-type="storeInfo">
+          <address>PO Box 1405
+Davidson, NC 28036</address>
+      </article>
+
+
+        <div class="footer-copyright">
+            <p class="powered-by text">&copy; 2025 Sky Mountain Coffee </p>
+        </div>
+    </div> <!-- footer-bottom -->
+
+    <div id="topcontrol" class="backtoTop" title="Scroll Back to Top">
+      <button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button>
+      <div class="clear"></div>
+    </div>
+
+</footer>
+
+<!-- CALL MOST RECENT JQUERY LIBRARY -->
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.min.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+  <script>
+    $(window).on("load", function(){
+    $(function(){
+      $("header li.navUser-item.currency-menu a.navUser-action.has-dropdown").click(function(e){
+        e.preventDefault();
+      });
+    });
+  });
+  </script>
+
+<!--  FOOTER CATEGORIES PAGINATION -->
+  <script>
+  var divs = $("footer article.categories li");
+     for(var i = 0; i < divs.length; i+=10) {
+       divs.slice(i, i+10).wrapAll("<div class='categories-footer page ten'></div>");
+  }
+  $('div#page-wrapper').addClass('ten');
+
+
+  // DYNAMICALLY ADD A PAGE NUMBER & CORRESPONSING PAGINATION DOT FOR EACH PAGE IN DROPDOWN
+   $(document).ready(function() {
+     // Get number of pages in dropdown
+     var totalPages = $('.categories-footer.page').length;
+     // console.log(totalPages);
+     // ADD CORRESPONDING PAGE NUMBER TO PAGES IN DROPDOWN
+     $('.categories-footer.page').each(function(i) {
+       var $this = $(this);
+       // var activePageNumber = $(this).index() + 1;
+       var newClass = "page" + i++;
+       $this.addClass(newClass);
+     });
+     // ADD CORRESPONDING PAGE NUMBER TO DOTS
+     if (totalPages > 1) {
+       for (i=0; i < totalPages; i++) {
+         $('.footer-categories-pagination span.dots').append('<a class="navPages-action paginator page'+i+'"> '+(i+1)+' </a>');
+       }
+     }
+  });
+  </script>
+
+
+<script>
+// <!-- LINK UP ARROWS WITH PAGE NUMBER - IN PROGRESS -->
+// LINK UP DOT NUMBER WITH PAGE NUMBER
+  $(document).ready(function() {
+    var totalPageBtns = $('.footer-categories-pagination a.navPages-action.paginator').length;
+    // console.log(totalPageBtns);
+    $('.categories-footer.page').addClass('inactive-page');
+    $('.categories-footer.page:first').removeClass('inactive-page').addClass('active-page');
+    $('.footer-categories-pagination span.dots a.navPages-action.paginator:first').addClass('active');
+    $('.categories-footer.page.inactive-page').hide();
+    $('.categories-footer.page:first').addClass('active-page');
+    $('.footer-categories-pagination a.navPages-action.paginator:first').addClass('active-page');
+    $('.footer-categories-pagination span.dots a.navPages-action.paginator').on ('click', function() {
+    $('.footer-categories-pagination span.dots a.navPages-action.paginator:first').removeClass('inactive');
+    var activeCatPageNumber = $(this).index();
+    $('.categories-footer.page'+activeCatPageNumber).removeClass('inactive-page').addClass('active-page').siblings().removeClass('active-page').addClass('inactive-page');
+   $('.categories-footer.page.active-page').fadeIn();
+   // console.log(this);
+   $(this).toggleClass('active-page').siblings().removeClass('active-page');
+   $('.categories-footer.page.active-page.inactive-page').hide();
+   if ( !($('.footer-categories-pagination a.navPages-action.paginator:first').hasClass("inactive-page"))  ){
+     $('.footer-categories-pagination a.navPages-action.paginator').removeClass('active');
+     $(this).addClass('active');
+   }
+   if ( !($('.footer-categories-pagination a.navPages-action.paginator:last').hasClass("inactive-page"))  ){
+     $('.footer-categories-pagination a.navPages-action.paginator').removeClass('active');
+     $(this).addClass('active');
+   }
+  });
+  });
+</script>
+
+<script>
+</script>
+
+<script>
+</script>
+
+<script>
+  var divs = $("div#page-wrapper .category-list > li.navPages-item.top-level.categories");
+     for(var i = 0; i < divs.length; i+=15) {
+       divs.slice(i, i+15).wrapAll("<div class='mega-nav page fifteen-per-page'><div class='fader'></div></div>");
+  }
+  $('div#page-wrapper').addClass('fifteen');
+</script>
+
+<script>
+</script>
+
+<script>
+</script>
+
+<script>
+</script>
+
+<script>
+// <!-- DYNAMICALLY ADD A PAGE NUMBER & CORRESPONSING PAGINATION DOT FOR EACH PAGE IN DROPDOWN -->
+ $(document).ready(function() {
+   // Get number of pages in dropdown
+   var totalPages = $('div#page-wrapper .page').length;
+   // console.log(totalPages);
+   // ADD CORRESPONDING PAGE NUMBER TO PAGES IN DROPDOWN
+   $('div#page-wrapper .page').each(function(i) {
+     var $this = $(this);
+     // var activePageNumber = $(this).index() + 1;
+     var newClass = "page" + i++;
+     $this.addClass(newClass);
+   });
+   // ADD CORRESPONDING PAGE NUMBER TO DOTS
+   if (totalPages > 1) {
+     for (i=0; i < totalPages; i++) {
+       $('.pagination-container span.dots').append('<a class="navPages-action paginator page'+i+'"> '+(i+1)+' </a>');
+     }
+   }
+});
+</script>
+
+<script>
+$(document).ready(function() {
+  var totalPageBtns = $('div#page-wrapper a.navPages-action.paginator').length;
+  // console.log(totalPageBtns);
+  $('div#page-wrapper .category-list .page').addClass('inactive-page');
+  $('div#page-wrapper .category-list .page:first').removeClass('inactive-page').addClass('active-page');
+  $('div#page-wrapper .category-list .page.inactive-page .fader').hide();
+  $('div#page-wrapper .page:first').addClass('active-page');
+  $('div#page-wrapper .pagination-container a.navPages-action.paginator:first').addClass('active-page');
+  $('div#page-wrapper .pagination-container a.navPages-action.paginator').on ('click', function() {
+  var activePageNumber = $(this).index();
+ $('.mega-cat-dropdown div#page-wrapper .category-list .page'+activePageNumber).removeClass('inactive-page').toggleClass('active-page').siblings().removeClass('active-page').addClass('inactive-page');
+ $('.mega-cat-dropdown div#page-wrapper .category-list .page.active-page .fader').fadeIn();
+ // console.log(this);
+ $(this).toggleClass('active-page').siblings().removeClass('active-page');
+ $('.mega-cat-dropdown .has-subMenu.is-root + .navPage-subMenu-horizontal.second-level-flyout').removeClass('active-flyout');
+ $('.mega-cat-dropdown div#page-wrapper .category-list .page.inactive-page .fader').hide();
+});
+});
+</script>
+
+<script>
+// <!-- FLYOUT NO IMAGES - WRAP EVERY 8 CATEGORIES IN A DIV FOR PAGES -->
+  $(document).ready(function(){
+  $('.navPage-subMenu-list.all-second-level-plus-container.flyout-page-wrapper').each(function(i) {
+  var divs = $(this).children(".flyout-page-wrapper .navPage-subMenu-item-child.second-level");
+     for(var i = 0; i < divs.length; i+=8) {
+       divs.slice(i, i+8).wrapAll("<div class='flyout page eight-per-page'><div class='fader'></div></div>");
+       // var numberOfFlyoutPages = $('.flyout.page').length;
+       // console.log(numberOfFlyoutPages);
+  }
+});
+});
+</script>
+
+<script>
+// <!-- DYNAMICALLY ADD A PAGE NUMBER TO EACH FLYOUT -->
+ $(document).ready(function() {
+   $('.navPage-subMenu-list.all-second-level-plus-container.flyout-page-wrapper').each(function(i) {
+     i = 0;
+     $(this).children('div.flyout.page').each(function() {
+     // console.log($this);
+     // var activePageNumber = $(this).index() + 1;
+     var newClass = "page" + i++;
+     // console.log(newClass);
+     $(this).addClass(newClass);
+   });
+ });
+});
+</script>
+
+<script>
+    // <!-- ACTIVATE FIRST PAGE IN EACH FLYOUT ON HOVER OF PARENT IN DROPDOWN -->
+      $(document).ready(function() {
+      $('.mega-cat-dropdown li.navPages-item').hover(function() {
+        $('.flyout.page').removeClass('active-page').addClass('inactive-page');
+        $('.flyout-page-wrapper .flyout-pagination-container a.navPages-action.paginator').removeClass('active-page');
+        // $('.flyout-page-wrapper .flyout-pagination-container a.navPages-action.paginator:first').addClass('active-page');
+        $(this).find('.flyout.page:first').removeClass('inactive-page').addClass('active-page');
+        $(this).find('.flyout.page.active-page:first .fader').fadeIn();
+      });
+    });
+
+      $(document).ready(function() {
+        $('.mega-cat-dropdown li.navPages-item').hover(function() {
+          $(this).find('.flyout-pagination-container.bottom a.navPages-action.paginator').removeClass('active-page').addClass('inactive-page');
+          $(this).find('.flyout-pagination-container.bottom a.navPages-action.paginator:first').addClass('active-page').removeClass('inactive-page');
+          $('.flyout-pagination-container.top a.navPages-action.previous').addClass('inactive');
+          $('.flyout-pagination-container.top a.navPages-action.next').removeClass('inactive');
+    });
+  });
+</script>
+
+
+<script>
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100 ) {
+            $('.backtoTop').addClass("visible");
+        } else {
+            $('.backtoTop').removeClass("visible");
+        }
+    });
+
+    $('.backtoTop').click(function(){
+    $("html, body").animate({ scrollTop: 0 }, 600);
+    return false;
+    });
+</script>
+
+<script>
+// <!-- HIDE SUBCATEGORY IMAGES IF CATEGORY IMAGE IS NOT SET-->
+$(document).ready(function(){
+	if($('.subcategory-image.uploaded').length) {
+    $('.subcategory-grid').addClass('has-images');
+		$("li.subcategory-item .subcategory-image").fadeIn();
+	}
+});
+</script>
+
+
+<script>
+$(window).on("load", function(){
+	$('.subcategory-grid').fadeIn();
+	$('.productGrid').fadeIn();
+});
+</script>
+
+<script>
+$(window).on("load", function(){
+if ($('.subcategory-image').hasClass('uploaded')) {
+    $('li.subcategory-item').addClass('hasImage');
+}
+});
+</script>
+
+<script>
+// <!-- SCROLL TO REVIEWS IN TABS AND MAKE ACTIVE WHEN REVIEW LINK UP TOP IS CLICKED -->
+$( "span.productView-reviewLink.scroll-to-view > a" ).on ('click', function() {
+	$('html,body').animate({
+              scrollTop: $(".productView-description").offset().top
+            }, 1000);
+            $(".product-reviews.ui-accordion-header").trigger("click");
+            return false;
+});
+</script>
+
+<script>
+$(document).ready(function() {
+$('.mega-cat-nav .container-header.btn').on ('click', function() {
+  $(this).toggleClass('active');
+  $('.mega-cat-nav').toggleClass('active');
+  $('.mega-cat-dropdown').toggle("fade", 300);
+  // $('.mega-cat-dropdown').slideToggle();
+  $('.second-level-flyout').removeClass('active-flyout');
+});
+});
+</script>
+
+<script>
+  $('a.navPages-action.navPages-action-depth-max.has-subMenu.is-root.second-level-parent').hover(function() {
+        $(this).next('.navPage-subMenu-horizontal.second-level-flyout').toggleClass('active');
+        // $('.navPage-subMenu-horizontal.second-level-flyout').toggleClass('hide-fast');
+        // $(this).next('.navPage-subMenu-horizontal.second-level-flyout').removeClass('hide-fast');
+    });
+
+    $('.mega-cat-dropdown a.navPages-action.single-level').hover(function() {
+          // $('.navPage-subMenu-horizontal.second-level-flyout').toggleClass('hide-fast');
+      });
+
+$( ".mega-cat-dropdown" ).on("mousemove", function() {
+  // console.log("mouse is moving across mega nav drop-down");
+  $('#menu .mega-cat-dropdown .navPages-action.sideNavTopLevel').addClass('deactivate');
+  // $('#menu.fixed .mega-cat-dropdown .navPages-action.sideNavTopLevel').addClass('deactivate');
+  // $('.mega-cat-dropdown').off('hover', '.navPages-action');
+  // $('.navPages-action').off('mouseenter mouseleave');
+});
+
+var timeout = null;
+$(document).on('mousemove', function() {
+    clearTimeout(timeout);
+    timeout = setTimeout(function() {
+        // console.log('Mouse idle for .25 sec');
+        $('#menu .mega-cat-dropdown .navPages-action.sideNavTopLevel').removeClass('deactivate');
+        // $('#menu.fixed .mega-cat-dropdown .navPages-action.sideNavTopLevel').removeClass('deactivate');
+    }, 50);
+});
+
+// CLOSE MEGA NAV IF CLICKING OUTSIDE OF IT
+$(document).click(function(event) {
+  if($('div').not('.mega-cat-nav')) {
+         $(".mega-cat-nav li.navPages-item.navPages-item-page.container-header.btn.active").removeClass('active');
+         $('.mega-cat-dropdown').hide();
+         $('.mega-cat-nav').removeClass('active');
+         $('#shopnav-dim-page').removeClass('active');
+         $('.second-level-flyout').removeClass('active-flyout');
+         // $('header.header').toggleClass('active-mega-cat-nav');
+				 event.stopPropagation();
+    }
+});
+
+  if($(window).innerWidth() > 800) {
+  var $navHeight = $('.nav-right-fixed .nav-right').height();
+  console.log($navHeight);
+  var $pageListHeight = $('.sticky-navpages').height();
+  console.log($pageListHeight);
+  // cache the element
+  var $navBar = $('#menu');
+  // find original navigation bar position
+  var navPos = $navBar.offset().top;
+  // on scroll
+  $(window).scroll(function() {
+      // get scroll position from top of the page
+      var scrollPos = $(this).scrollTop();
+      // check if scroll position is >= the nav position
+      if (scrollPos >= navPos) {
+          $('nav.navUser').insertAfter('.mega-cat-nav');
+          $navBar.addClass('fixed');
+          $('div#menu-wrapper').addClass('fixed');
+          $('#menu .nav-page-list.two').addClass('hidden');
+          $('body').addClass("fixed-nav");
+          $('body.fixed-nav .body').css('margin-top', $navHeight);
+      } else {
+          $('nav.navUser').insertAfter('.header-logo');
+          $navBar.removeClass('fixed');
+          $('div#menu-wrapper').removeClass('fixed');
+          $('#menu .nav-page-list.two').removeClass('hidden');
+          $('body').removeClass("fixed-nav");
+          $('body .body').css('margin-top', 15);
+      }
+  });
+}
+if($(window).innerWidth() > 800) {
+  $(window).scroll(function() {
+      // get scroll position from top of the page
+      var scrollPos = $(this).scrollTop();
+      // var navPos = $navBar.offset().top;
+  if (scrollPos >= navPos) {
+    $('#menu').addClass('fixed-again');
+    $('div#menu-wrapper').addClass('fixed-again');
+  } else {
+    $('#menu').removeClass('fixed-again');
+    $('div#menu-wrapper').removeClass('fixed-again');
+  }
+});
+}
+
+
+if($(window).innerWidth() <= 800) {
+// cache the element
+var $navBar = $('.logo-user-section.container');
+// find original navigation bar position
+var $mobileMenu = $('.mobileMenu-toggle');
+var navPos = $navBar.offset().top;
+// on scroll
+$(window).scroll(function() {
+    // get scroll position from top of the page
+    var scrollPos = $(this).scrollTop();
+    // check if scroll position is >= the nav position
+    if (scrollPos > navPos) {
+        $navBar.addClass('fixed');
+        $mobileMenu.addClass('fixed');
+        // $('header').addClass('fixed');
+    } else {
+        $navBar.removeClass('fixed');
+        $mobileMenu.removeClass('fixed');
+        // $('header').removeClass('fixed');
+    }
+});
+}
+if($(window).innerWidth() <= 800) {
+  $(window).scroll(function() {
+      // get scroll position from top of the page
+      var scrollPos = $(this).scrollTop();
+      // var $navBar = $('.logo-user-section.container');
+      // find original navigation bar position
+
+      // var navPos = $navBar.offset().top;
+  if (scrollPos > navPos) {
+    // $('header').addClass('fixed');
+    // $('.logo-user-section.container').addClass('fixed-again');
+    $('.logo-user-section.container').addClass('fixed-again');
+    $('.mobileMenu-toggle').addClass('fixed-again');
+  } else {
+    // $('header').removeClass('fixed');
+    // $('.logo-user-section.container').removeClass('fixed-again');
+    $('.logo-user-section.container').removeClass('fixed-again');
+    $('.mobileMenu-toggle').removeClass('fixed-again');
+  }
+});
+}
+
+  if ($navHeight < 90){
+    $('#menu-wrapper').addClass('single-line');
+  }
+	//Click Logo To Scroll To Top
+  $( "li.navPages-item.sticky-object.logo a" ).click(function( event ) {
+  				event.preventDefault();
+	});
+
+  $( "a.navUser-action.navUser-action--quickSearch" ).click(function( event ) {
+  				event.preventDefault();
+	});
+
+  $( "a.navUser-action.navUser-action--currencySelector.has-dropdown" ).click(function( event ) {
+          event.preventDefault();
+  });
+
+
+$(document).ready(function(){
+  $(".page.blog .blog-title a").text(function(index, currentText) {
+  var maxLength = $(this).attr('data-maxlength');
+  if(currentText.length >= maxLength) {
+    return currentText.substr(0, maxLength) + "...";
+  } else {
+    return currentText
+  }
+});
+});
+
+$(document).ready(function(){
+  $(".page.blog .blog-date, .page.blog .blog-author").text(function(index, currentText) {
+  var maxLength = $(this).attr('data-maxlength');
+  if(currentText.length >= maxLength) {
+    return currentText.substr(0, maxLength) + "...";
+  } else {
+    return currentText
+  }
+});
+});
+
+    // $('#menu li.navPages-item.navPages-item-page.container-header.btn a.navPages-action').on ('click', function() {
+    //     $('#shopnav-dim-page').toggleClass('active');
+    //     $('header.header').toggleClass('active-mega-cat-nav');
+    //     $('#menu').toggleClass('active-mega-cat-nav');
+    // });
+
+  // $( "#menu li.navPages-item.navPages-item-page.container-header.btn a.navPages-action" ).hover(function() {
+  //   $('.mega-cat-dropdown').slideToggle();
+  // });
+
+    $('#menu li.navPages-item.navPages-item-page.container-header.btn a.navPages-action').on ('click', function() {
+        $('#shopnav-dim-page').toggleClass('active');
+        $('header.header').toggleClass('active-mega-cat-nav');
+        $('#menu').toggleClass('active-mega-cat-nav');
+    });
+
+  $(document).ready(function() {
+  $('#menu').on ('click', function() {
+  $('.navPages-container').toggleClass('active-mega-cat-nav');
+  // console.log('click');
+  // $(".mega-cat-nav li.navPages-item.navPages-item-page.container-header.btn.active").removeClass('active');
+  // $('.mega-cat-dropdown').hide();
+  // $('.mega-cat-nav').removeClass('active');
+  // $('#shopnav-dim-page').removeClass('active');
+});
+});
+
+$(document).ready(function() {
+	var $myDiv = $('#shopnav-dim-page');
+	    if ( $myDiv.length){
+				var id = '#dialog';
+				var maskHeight = $(document).height();
+				var maskWidth = $(window).width();
+				$('#mask').css({'width':maskWidth,'height':maskHeight});
+				$('#mask').fadeIn(500);
+				$('#mask').fadeTo("slow",0.6);
+				var winH = $(window).height();
+				var winW = $(window).width();
+							$(id).css('top',  winH/2-$(id).height()/2-155);
+				$(id).css('left', winW/2-$(id).width()/2-35);
+					 $(id).fadeIn(2000);
+					 $('.window .close').click(function (e) {
+				e.preventDefault();
+				$('#mask').hide();
+				$('.window').hide();
+					 });
+					 $('#mask').click(function () {
+				    $(this).hide();
+				    $('.window').hide();
+			 });
+	    }
+});
+
+$(document).ready(function() {
+    $('a.navPages-action.navPages-action-depth-max.has-subMenu.is-root.topLevel').hover(
+        function () {
+            $(this).addClass('active');
+            $(this).siblings('div#menu .navPage-subMenu').show();
+            // $('#menu').addClass('show-overflow');
+        },
+        function () {
+            $(this).siblings('div#menu .navPage-subMenu').hide();
+            $(this).removeClass('active');
+
+        }
+    );
+
+    $('div#menu .navPage-subMenu').hover(
+        function () {
+            $(this).prev('a.navPages-action.navPages-action-depth-max.has-subMenu.is-root.topLevel').addClass('active')
+        },
+        function () {
+            $(this).prev('a.navPages-action.navPages-action-depth-max.has-subMenu.is-root.topLevel').removeClass('active')
+        }
+    );
+  });
+
+$('.navUser-action').on ('click', function() {
+  $(this).next('.dropdown-menu').toggleClass("active");
+});
+
+  $('.quickSearchResults').on('click', function() {
+    // console.log('click-close');
+    $('.quickSearchResults').fadeOut();
+  });
+
+    $(document).on('click', '.quickSearchResults .modal-close', function() {
+      // console.log('click-close');
+      $('.quickSearchResults').fadeOut();
+    });
+
+    $('.dropdown--quickSearch .form-input').on('click', function() {
+      $('.quickSearchResults').fadeIn();
+    });
+
+    if($(window).innerWidth() > 800) {
+	    $(document).click(function(){
+        $( "a.navUser-action.navUser-action--quickSearch" ).click(function( event ) {
+          event.preventDefault();
+          $('#quickSearch form.form').trigger('submit');
+        });
+	    });
+    }
+
+$(window).resize(function(){
+    if($(window).innerWidth() > 800) {
+	    $(document).click(function(){
+        $( "a.navUser-action.navUser-action--quickSearch" ).click(function( event ) {
+          event.preventDefault();
+          $('#quickSearch form.form').trigger('submit');
+        });
+	    });
+    }
+  });
+
+    $(document).click(function(event) {
+      if($('div').not('#menu.fixed li.navUser-item.user-icons a.navUser-action')) {
+        $('.dropdown-menu').removeClass("active");
+        $('div#cart-preview-dropdown').fadeOut();
+        // $('.quickSearchResults').fadeOut();
+        event.stopPropagation();
+      }
+      });
+
+
+  $(document).ready(function() {
+      $('#menu .mega-cat-dropdown .navPages-item.top-level .navPages-action.second-level-parent').mouseenter(function() {
+          // remove any existing 'po' classes and add the 'przed' class back
+          $('.active-parent-link').removeClass('active-parent-link').addClass('nonactive-parent-link');
+          $('.active-flyout').removeClass('active-flyout').addClass('inactive-flyout');
+          // for the element just hovered over, remove the 'przed' class and add 'po'
+          $(this).removeClass('nonactive-parent-link').addClass('active-parent-link');
+          $(this).next('.navPage-subMenu-horizontal.second-level-flyout').removeClass('inactive-flyout').addClass('active-flyout');
+
+      });
+  });
+
+
+  $(document).ready(function() {
+      $('#menu .mega-cat-dropdown .navPages-item.top-level .navPages-action.single-level').mouseenter(function() {
+          // remove any existing 'po' classes and add the 'przed' class back
+          $('.active-parent-link').removeClass('active-parent-link').addClass('nonactive-parent-link');
+          $('.active-flyout').removeClass('active-flyout').addClass('inactive-flyout');
+          // for the element just hovered over, remove the 'przed' class and add 'po'
+      });
+  });
+
+  $(document).ready(function() {
+      $('#menu .mega-cat-dropdown .nav-page-list.mega-nav-page-list').mouseenter(function() {
+          // remove any existing 'po' classes and add the 'przed' class back
+          $('.active-parent-link').removeClass('active-parent-link').addClass('nonactive-parent-link');
+          $('.active-flyout').removeClass('active-flyout').addClass('inactive-flyout');
+          // for the element just hovered over, remove the 'przed' class and add 'po'
+      });
+  });
+
+
+// <!-- GET HEIGHT OF TALLEST PAGE IN DROPDOWN AND SET THE SIBLINGS TO MATCH - FOR PAGINATOR TO WORK -->
+  $(document).ready(function() {
+    $('.mega-cat-nav .container-header.btn').click(function() {
+         $('.mega-cat-dropdown div#page-wrapper .category-list .page').each(function(i) {
+         var maxHeight = 0;
+         maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
+         console.log(maxHeight);
+         $('.mega-cat-dropdown div#page-wrapper .category-list .page').height(maxHeight);
+         $('#menu .mega-cat-dropdown .has-subMenu.is-root + .navPage-subMenu-horizontal.second-level-flyout').css('min-height', maxHeight+50);
+       });
+
+       var activeDropDownPageHeight = 0;
+       $('.mega-cat-dropdown div#page-wrapper .category-list .page').each(function(i) {
+         var activeDropDownPageHeight = $(this).find('div#page-wrapper .category-list .page.active-page').height();
+         // console.log(activePageHeight);
+         var inactiveDropDownPages = $(this).find('div#page-wrapper .category-list .page.inactive-page');
+         // console.log(inactivePages);
+         $(inactiveDropDownPages).css("margin-top", - activeDropDownPageHeight);
+       });
+       $('.mega-cat-dropdown div#page-wrapper .category-list .page').removeClass('active-page').addClass('inactive-page');
+       $('.mega-cat-dropdown div#page-wrapper .category-list .page:first').removeClass('inactive-page').addClass('active-page');
+       // $('.mega-cat-dropdown div#page-wrapper .category-list .page.inactive-page .fader').fadeOut();
+       // $('.mega-cat-dropdown div#page-wrapper .category-list .page.active-page .fader').fadeIn();
+       $('.mega-cat-dropdown div#page-wrapper .pagination-container a.navPages-action.paginator').removeClass('active-page').addClass('inactive-page');
+       $('.mega-cat-dropdown div#page-wrapper .pagination-container a.navPages-action.paginator:first').removeClass('inactive-page').addClass('active-page');
+     });
+ });
+
+
+// <!-- GET HEIGHT OF TALLEST PAGE IN MOBILE DROPDOWN AND SET THE SIBLINGS TO MATCH - FOR PAGINATOR TO WORK -->
+  $(document).ready(function() {
+    $('.mobileMenu-toggle').click(function() {
+         $('.mega-cat-dropdown div#page-wrapper .category-list .page').each(function(i) {
+         var maxHeight = 0;
+         maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
+         console.log(maxHeight);
+         $('.mega-cat-dropdown div#page-wrapper .category-list .page').height(maxHeight);
+       });
+
+       var activeDropDownPageHeight = 0;
+       $('.mega-cat-dropdown div#page-wrapper .category-list .page').each(function(i) {
+         var activeDropDownPageHeight = $(this).find('div#page-wrapper .category-list .page.active-page').height();
+         // console.log(activePageHeight);
+         var inactiveDropDownPages = $(this).find('div#page-wrapper .category-list .page.inactive-page');
+         // console.log(inactivePages);
+         $(inactiveDropDownPages).css("margin-top", - activeDropDownPageHeight);
+       });
+       $('.mega-cat-dropdown div#page-wrapper .category-list .page').removeClass('active-page').addClass('inactive-page');
+       $('.mega-cat-dropdown div#page-wrapper .category-list .page:first').removeClass('inactive-page').addClass('active-page');
+       // $('.mega-cat-dropdown div#page-wrapper .category-list .page.inactive-page .fader').fadeOut();
+       // $('.mega-cat-dropdown div#page-wrapper .category-list .page.active-page .fader').fadeIn();
+       $('.mega-cat-dropdown div#page-wrapper .pagination-container a.navPages-action.paginator').removeClass('active-page').addClass('inactive-page');
+       $('.mega-cat-dropdown div#page-wrapper .pagination-container a.navPages-action.paginator:first').removeClass('inactive-page').addClass('active-page');
+     });
+ });
+
+$(document).ready(function() {
+  $('a.navUser-action.navUser-action--quickSearch.desktop-toggle').on("click", function(){
+      // $('header.header').addClass('is-open');
+      $('header.header').addClass('quick-search-is-open');
+      $('.mobileMenu-toggle').addClass("is-open");
+      $(".mobileMenu-toggle").attr("aria-expanded","true");
+  });
+});
+
+  $(document).ready(function() {
+    $('.quickSearch-mobileToggle').click(function(e){
+        // $('header.header').removeClass('is-open');
+        $('header.header').removeClass('quick-search-is-open');
+        $('.mobileMenu-toggle').removeClass("is-open");
+        $(".mobileMenu-toggle").attr("aria-expanded","false");
+        $('.dropdown--quickSearch.is-open').removeClass('is-open');
+
+
+    });
+  });
+
+$(document).ready(function() {
+      $(document).click(function(){
+        $( "a.navUser-action.navUser-action--quickSearch.mobile-submit" ).on("click", function(){
+          // event.preventDefault();
+          $('#quickSearch form.form').trigger('submit');
+        });
+      });
+
+  });
+
+  $(document).ready(function() {
+    if($(window).innerWidth() < 800) {
+      // $('.mega-cat-dropdown').prependTo('#menu-wrapper');
+    }
+  });
+
+  $(document).ready(function() {
+    $(window).resize(function(){
+    if($(window).innerWidth() < 800) {
+      // $('.mega-cat-dropdown').prependTo('#menu-wrapper');
+    }
+  });
+  });
+
+// <!-- MOBILE - CLOSE ALL OPEN SUBCATEGORIES WHEN MENU TOGGLE IS CLICKED -->
+// $(window).resize(function(){
+if($(window).innerWidth() <= 800) {
+	    $(document).ready(function() {
+        $( "a.mobileMenu-toggle" ).click(function( event ) {
+          $('.flyout.page').css('height','auto');
+          $('.mega-cat-dropdown div#page-wrapper .category-list .page.active-page').css('height', 'auto');
+          $('.mega-cat-dropdown li.navPages-item').removeClass('mobile-parent-active');
+          $('.mega-cat-dropdown .has-subMenu.is-root + .navPage-subMenu-horizontal.second-level-flyout').slideUp();
+          $(".mega-cat-dropdown").animate({ scrollTop: 0 }, 300);
+        });
+	    });
+    }
+  // });
+
+// <!-- DESKTIOP - CLOSE ALL OPEN SUBCATEGORIES WHEN PAGINATION IS CLICKED -->
+// $(window).resize(function(){
+if($(window).innerWidth() > 800) {
+	    $(document).ready(function() {
+        $( ".mega-cat-dropdown a.navPages-action.paginator" ).click(function( event ) {
+          $('.mega-cat-dropdown li.navPages-item').removeClass('mobile-parent-active');
+          $('.mega-cat-dropdown .has-subMenu.is-root + .navPage-subMenu-horizontal.second-level-flyout').slideUp();
+          $(".mega-cat-dropdown").animate({ scrollTop: 0 }, 300);
+        });
+	    });
+    }
+  // });
+
+// <!-- MOBILE - CLOSE ALL OPEN SUBCATEGORIES WHEN PAGINATION IS CLICKED -->
+// $(window).resize(function(){
+if($(window).innerWidth() <= 800) {
+	    $(document).ready(function() {
+        $( ".mega-cat-dropdown a.navPages-action.paginator" ).click(function( event ) {
+          $('.mega-cat-dropdown li.navPages-item').removeClass('mobile-parent-active');
+          $('.mega-cat-dropdown .has-subMenu.is-root + .navPage-subMenu-horizontal.second-level-flyout').slideUp();
+          $(".mega-cat-dropdown").animate({ scrollTop: 0 }, 0);
+        });
+	    });
+    }
+  // });
+
+// $(window).resize(function(){
+if($(window).innerWidth() <= 800) {
+	    $(document).ready(function() {
+        $( ".mega-cat-dropdown .category-list li.top-level i.icon.navPages-action-moreIcon.topLevel" ).click(function( event ) {
+          $('.flyout.page').css('height','auto');
+          $('.mega-cat-dropdown div#page-wrapper .category-list .page.active-page').css('height', 'auto');
+          $(this).parents('li.navPages-item.top-level').toggleClass('mobile-parent-active');
+          $(this).parents('li.navPages-item.top-level').find('i.icon.navPages-action-moreIcon').toggleClass('mobile-icon-active');
+          $(this).parents('li.navPages-item.top-level').find('.second-level-flyout').slideToggle();
+          event.preventDefault();
+        });
+	    });
+    }
+  // });
+
+$(document).ready(function() {
+  if($(window).innerWidth() <= 800) {
+    $( ".mega-cat-dropdown .category-list i.icon.navPages-action-moreIcon.second-level" ).click(function( event ) {
+      $(this).parents('li.navPage-subMenu-item-child.second-level').toggleClass('mobile-parent-active');
+      $(this).parents('li.navPage-subMenu-item-child.second-level').find('i.icon.navPages-action-moreIcon').toggleClass('mobile-icon-active');
+      $(this).parents('li.navPage-subMenu-item-child.second-level').find('.third-level-flyout').slideToggle();
+      event.preventDefault();
+    });
+  }
+});
+
+
+// NAVPAGES FIX
+$(document).ready(function() {
+  if($(window).innerWidth() <= 800) {
+    $( "#menu .mega-cat-dropdown i.mega-nav-pages" ).click(function( event ) {
+      // $(this).parents('li.navPages-item.top-level.mega-nav-pages').toggleClass('mobile-parent-active');
+      // $(this).parents('li').find('ul:first').toggleClass('activeDropDown');
+      $(this).parents('li').find('i.mega-nav-pages:first').toggleClass('mobile-icon-active');
+    //   if ($('li.navPages-item.top-level.mega-nav-pages').hasClass('mobile-parent-active')) {
+    //     $(this).parents('li.navPages-item.top-level.mega-nav-pages').find('i.icon.navPages-action-moreIcon').addClass('mobile-icon-active');
+        $(this).parents('li.navPages-item.top-level.mega-nav-pages').find('.second-level-flyout').toggleClass('visible').slideToggle();
+    // } else {
+    //   // $(this).parents('li.navPages-item.top-level.mega-nav-pages').find('.second-level-flyout').slideUp();
+    //   // $(this).parents('li.navPages-item.top-level.mega-nav-pages').find('i.icon.navPages-action-moreIcon').removeClass('mobile-icon-active');
+    // }
+      event.preventDefault();
+    });
+  }
+});
+
+$(document).ready(function() {
+  if($(window).innerWidth() <= 800) {
+    $('.productView-images').insertBefore('.productView-info');
+  }
+});
+
+// <!-- ACCOUNT DROP-DOWN -->
+$(document).click(function(event) {
+  if ( !$(event.target).hasClass('signout-list')) {
+       $("div#account-dropdown-signout-list").hide();
+       event.stopPropagation();
+  }
+});
+
+// <!-- SIGN-OUT DROPDOWN -->
+$('li.navUser-item.navUser-item--account.user-icons.account').hover(function(e){
+$('div#account-dropdown-signout-list').toggleClass('visible');
+$('div#cart-preview-dropdown.dropdown-menu.is-open.f-open-dropdown').hide();
+// e.preventDefault();
+// e.stopPropagation();
+});
+
+// <!-- SIGN-IN DROPDOWN -->
+$('li.navUser-item.navUser-item--account.user-icons.account').hover(function(e){
+$('div#account-dropdown-signin-list').toggleClass('visible');
+$('div#cart-preview-dropdown.dropdown-menu.is-open.f-open-dropdown').hide();
+// e.preventDefault();
+// e.stopPropagation();
+});
+
+$('.navUser-action.account .dropdown-menu').hover(function(e){
+  $(this).addClass('visible');
+});
+
+$(document).click(function(event) {
+  if ( !$(event.target).hasClass('signin-register')) {
+       $("div#account-dropdown-signin-register").hide();
+       event.stopPropagation();
+  }
+});
+
+$('.navUser-action.account.signin-register').click(function(e){
+$('div#account-dropdown-signin-register').toggle();
+$('div#cart-preview-dropdown.dropdown-menu.is-open.f-open-dropdown').hide();
+e.preventDefault();
+e.stopPropagation();
+});
+
+$(document).ready(function(){
+  $('.dropdown-menu.signout-list a.signout-list:contains("(undefined)")').each(function() {
+    var newText = $(this).html().replace("(undefined)", "<span class='hidden'></span>");
+    $(this).html(newText);
+});
+});
+
+// <!-- DYNAMICALLY ADD A PAGE NUMBER TO EACH FLYOUT -->
+ $(document).ready(function() {
+   $('.navPage-subMenu-list.all-second-level-plus-container.flyout-page-wrapper').each(function(i) {
+     i = 0;
+     $(this).children('div.flyout.page').each(function() {
+     // console.log($this);
+     // var activePageNumber = $(this).index() + 1;
+     var newClass = "page" + i++;
+     // console.log(newClass);
+     $(this).addClass(newClass);
+   });
+ });
+});
+
+// <!-- DYNAMICALLY ADD A PAGINATION DOT FOR EACH PAGE IN FLYOUT -->
+ $(document).ready(function() {
+   $('.navPage-subMenu.navPage-subMenu-horizontal.second-level-flyout').each(function(i) {
+     var flyoutPages = $(this).find('.flyout-page-wrapper .page').length;
+     console.log(flyoutPages);
+     if (flyoutPages > 1) {
+       $(this).find('.flyout-pagination-container.bottom span.dots').addClass('visible');
+       for (i=0; i < flyoutPages; i++) {
+         $(this).find('.flyout-pagination-container.bottom span.dots').append('<a class="navPages-action paginator page'+i+'"> '+(i+1)+' </a>');
+       }
+     }
+   });
+});
+
+  $(document).ready(function() {
+    var totalPageBtns = $('.flyout-page-wrapper a.navPages-action.paginator').length;
+    // console.log(totalPageBtns);
+    $('.flyout-pagination-container.bottom a.navPages-action.paginator').on ('click', function() {
+    var activePageNumber = $(this).index();
+    console.log(activePageNumber);
+
+    $('.navPage-subMenu.navPage-subMenu-horizontal.second-level-flyout.active-flyout').each(function(i) {
+      var firstPage = $(this).find('.flyout.page:first').addClass('first');
+      var lastPage = $(this).find('.flyout.page:last').addClass('last');
+    // FIRST PAGE ACTIVE - DEACTIVE PREVIOUS ARROW
+    if ( ($(firstPage).hasClass("active-page")) && ($(lastPage).hasClass("inactive-page"))  ){
+      $('.flyout-pagination-container.top a.navPages-action.next').removeClass('inactive').addClass('active');
+      $('.flyout-pagination-container.top a.navPages-action.previous').removeClass('active').addClass('inactive');
+      // console.log("FirstPage-Active & LastPage-Inactive");
+    }
+    // FIRST & LAST PAGE INACTIVE - ACTIVATE BOTH PREVIOUS & NEXT ARROWS
+    if ( ($(this).find(firstPage).hasClass("inactive-page")) && ($(this).find(lastPage).hasClass("inactive-page"))  ){
+      $('.flyout-pagination-container.top a.navPages-action.next').removeClass('inactive').addClass('active');
+      $('.flyout-pagination-container.top a.navPages-action.previous').removeClass('inactive').addClass('active');
+      // console.log("First & Last Page are inactive");
+    }
+    // LAST PAGE ACTIVE - DEACTIVATE NEXT ARROW
+    if ( ($(this).find(firstPage).hasClass("inactive-page")) && ($(this).find(lastPage).hasClass("active-page"))  ){
+      $('.flyout-pagination-container.top a.navPages-action.next').removeClass('active').addClass('inactive');
+      $('.flyout-pagination-container.top a.navPages-action.previous').removeClass('inactive').addClass('active');
+      // console.log("FirstPage-Inactive & LastPage-Active");
+    }
+    // var activePageHeight = -1;
+    // $('.navPage-subMenu.navPage-subMenu-horizontal.second-level-flyout.active-flyout').each(function(i) {
+    //   var activePageHeight = $(this).find('div.flyout.page.active-page').height();
+    //   // console.log(activePageHeight);
+    // });
+  });
+  });
+  });
+
+// <!-- SHOW PREV / NEXT PAGINATION IN FLYOUT IF MORE THAN 1 PAGE -->
+      $(document).ready(function() {
+        $('li.navPages-item.top-level.categories').each(function(i) {
+        var flyoutPages = $(this).find('.flyout-page-wrapper .page').length;
+        if (flyoutPages > 1) {
+          $(this).find('.flyout-pagination-container.top').addClass('visible');
+        }
+      });
+    });
+
+// <!-- NEXT FLYOUT PAGE -->
+     $(document).ready(function() {
+       // $('.navPage-subMenu.navPage-subMenu-horizontal.flyout.second-level').each(function(i) {
+       //   var flyoutPages = $(this).find('.flyout-page-wrapper .page').length;
+       //   console.log(flyoutPages);
+         $('.flyout-pagination-container.top a.navPages-action.next').click(function(){
+           // console.log('click');
+           var activePage = $('.flyout.page.active-page');
+           $('.flyout.page.active-page').addClass('inactive-page').removeClass('active-page');
+           $(activePage).next('div.flyout.page').removeClass('inactive-page').addClass('active-page');
+           var activePageDot = $('.navPage-subMenu-horizontal.second-level-flyout a.navPages-action.paginator.active-page');
+           $('.navPage-subMenu-horizontal.second-level-flyout a.navPages-action.paginator.active-page').addClass('inactive-page').removeClass('active-page');
+           $(activePageDot).next('.navPage-subMenu-horizontal.second-level-flyout a.navPages-action.paginator').removeClass('inactive-page').addClass('active-page');
+           $('.flyout-page-wrapper .page.active-page .fader').fadeIn();
+           $('.flyout-page-wrapper .page.inactive-page .fader').hide();
+
+           $('.navPage-subMenu.navPage-subMenu-horizontal.second-level-flyout.active-flyout').each(function(i) {
+             var firstPage = $(this).find('.flyout.page:first').addClass('first');
+             var lastPage = $(this).find('.flyout.page:last').addClass('last');
+           // FIRST PAGE ACTIVE - DEACTIVE PREVIOUS ARROW
+           if ( ($(firstPage).hasClass("active-page")) && ($(lastPage).hasClass("inactive-page"))  ){
+             $('.flyout-pagination-container.top a.navPages-action.next').removeClass('inactive').addClass('active');
+             $('.flyout-pagination-container.top a.navPages-action.previous').removeClass('active').addClass('inactive');
+             // console.log("FirstPage-Active & LastPage-Inactive");
+           }
+           // FIRST & LAST PAGE INACTIVE - ACTIVATE BOTH PREVIOUS & NEXT ARROWS
+           if ( ($(this).find(firstPage).hasClass("inactive-page")) && ($(this).find(lastPage).hasClass("inactive-page"))  ){
+             $('.flyout-pagination-container.top a.navPages-action.next').removeClass('inactive').addClass('active');
+             $('.flyout-pagination-container.top a.navPages-action.previous').removeClass('inactive').addClass('active');
+             // console.log("First & Last Page are inactive");
+           }
+           // LAST PAGE ACTIVE - DEACTIVATE NEXT ARROW
+           if ( ($(this).find(firstPage).hasClass("inactive-page")) && ($(this).find(lastPage).hasClass("active-page"))  ){
+             $('.flyout-pagination-container.top a.navPages-action.next').removeClass('active').addClass('inactive');
+             $('.flyout-pagination-container.top a.navPages-action.previous').removeClass('inactive').addClass('active');
+             // console.log("FirstPage-Inactive & LastPage-Active");
+           }
+           // var activePageHeight = -1;
+           // $('.navPage-subMenu.navPage-subMenu-horizontal.second-level-flyout.active-flyout').each(function(i) {
+           //   var activePageHeight = $(this).find('div.flyout.page.active-page').height();
+           //   // console.log(activePageHeight);
+           // });
+         });
+     });
+    });
+
+    // <!-- PREVIOUS FLYOUT PAGE -->
+     $(document).ready(function() {
+       // $('.navPage-subMenu.navPage-subMenu-horizontal.flyout.second-level').each(function(i) {
+       //   var flyoutPages = $(this).find('.flyout-page-wrapper .page').length;
+       //   console.log(flyoutPages);
+         $('.flyout-pagination-container.top a.navPages-action.previous').click(function(){
+           // console.log('click');
+           var activePage = $('.flyout.page.active-page');
+           $('.flyout.page.active-page').addClass('inactive-page').removeClass('active-page');
+           $(activePage).prev('div.flyout.page').removeClass('inactive-page').addClass('active-page');
+           var activePageDot = $('.navPage-subMenu-horizontal.second-level-flyout a.navPages-action.paginator.active-page');
+           $('.navPage-subMenu-horizontal.second-level-flyout a.navPages-action.paginator.active-page').addClass('inactive-page').removeClass('active-page');
+           $(activePageDot).prev('.navPage-subMenu-horizontal.second-level-flyout a.navPages-action.paginator').removeClass('inactive-page').addClass('active-page');
+           $('.flyout-page-wrapper .page.active-page .fader').fadeIn();
+           $('.flyout-page-wrapper .page.inactive-page .fader').hide();
+
+           $('.navPage-subMenu.navPage-subMenu-horizontal.second-level-flyout.active-flyout').each(function(i) {
+             var firstPage = $(this).find('.flyout.page:first').addClass('first');
+             var lastPage = $(this).find('.flyout.page:last').addClass('last');
+           // FIRST PAGE ACTIVE - DEACTIVE PREVIOUS ARROW
+           if ( ($(firstPage).hasClass("active-page")) && ($(lastPage).hasClass("inactive-page"))  ){
+             $('.flyout-pagination-container.top a.navPages-action.next').removeClass('inactive').addClass('active');
+             $('.flyout-pagination-container.top a.navPages-action.previous').removeClass('active').addClass('inactive');
+             // console.log("FirstPage-Active & LastPage-Inactive");
+           }
+           // FIRST & LAST PAGE INACTIVE - ACTIVATE BOTH PREVIOUS & NEXT ARROWS
+           if ( ($(this).find(firstPage).hasClass("inactive-page")) && ($(this).find(lastPage).hasClass("inactive-page"))  ){
+             $('.flyout-pagination-container.top a.navPages-action.next').removeClass('inactive').addClass('active');
+             $('.flyout-pagination-container.top a.navPages-action.previous').removeClass('inactive').addClass('active');
+             // console.log("First & Last Page are inactive");
+           }
+           // LAST PAGE ACTIVE - DEACTIVATE NEXT ARROW
+           if ( ($(this).find(firstPage).hasClass("inactive-page")) && ($(this).find(lastPage).hasClass("active-page"))  ){
+             $('.flyout-pagination-container.top a.navPages-action.next').removeClass('active').addClass('inactive');
+             $('.flyout-pagination-container.top a.navPages-action.previous').removeClass('inactive').addClass('active');
+             // console.log("FirstPage-Inactive & LastPage-Active");
+           }
+           var activePageHeight = -1;
+           $('.navPage-subMenu.navPage-subMenu-horizontal.second-level-flyout.active-flyout').each(function(i) {
+             var activePageHeight = $(this).find('div.flyout.page.active-page').height();
+             // console.log(activePageHeight);
+           });
+         });
+     });
+    });
+
+      $(document).ready(function() {
+      $('a.navPages-action.paginator').on ('click', function() {
+          var activePageNumber = $(this).index();
+          $(this).removeClass('inactive-page').toggleClass('active-page').siblings().removeClass('active-page').addClass('inactive-page');
+          // console.log(activePageNumber);
+          // console.log(this);
+          $('.flyout-page-wrapper .page'+activePageNumber).removeClass('inactive-page').addClass('active-page').siblings().removeClass('active-page').addClass('inactive-page');
+       });
+     });
+
+// <!-- FOOTER PREV / NEXT PAGINATION -->
+// <!-- SHOW PREV / NEXT PAGINATION IN FOOTER IF MORE THAN 1 PAGE -->
+      $(document).ready(function() {
+        var footerCatPages = $('.categories-footer.page').length;
+        if (footerCatPages > 1) {
+          $('.footer-categories-pagination').show();
+        }
+      });
+// <!-- NEXT FOOTER PAGE -->
+     $(document).ready(function() {
+      var firstPage = $('.categories-footer.page:first');
+      var lastPage = $('.categories-footer.page:last');
+       $(firstPage).addClass('first');
+       $(lastPage).addClass('last');
+       // SET PREVIOUS TO not-clickable on page load
+       $('.footer-categories-pagination a.navPages-action.previous').addClass('not-clickable');
+
+         $('.footer-categories-pagination a.navPages-action.next').click(function(){
+           var activePage = $('.categories-footer.page.active-page');
+           $('.categories-footer.page.active-page').addClass('inactive-page').removeClass('active-page');
+           $(activePage).next('.categories-footer.page').removeClass('inactive-page').addClass('active-page');
+           $('.categories-footer.page.active-page').fadeIn();
+           $('.categories-footer.page.inactive-page').hide();
+
+           $('.categories-footer.page').each(function(i) {
+           // FIRST PAGE ACTIVE - DEACTIVE PREVIOUS ARROW
+           if ( ($(firstPage).hasClass("active-page")) && ($(lastPage).hasClass("inactive-page"))  ){
+             $('.footer-categories-pagination a.navPages-action.next').removeClass('not-clickable').addClass('clickable');
+             $('.footer-categories-pagination a.navPages-action.previous').removeClass('clickable').addClass('not-clickable');
+             // console.log("FirstPage-Active & LastPage-Inactive");
+           }
+           // FIRST & LAST PAGE INACTIVE - ACTIVATE BOTH PREVIOUS & NEXT ARROWS
+           if ( ($(firstPage).hasClass("inactive-page")) && ($(lastPage).hasClass("inactive-page"))  ){
+           // if ( ($(this).find(firstPage).hasClass("inactive-page")) && ($(this).find(lastPage).hasClass("inactive-page"))  ){
+             $('.footer-categories-pagination a.navPages-action.next').removeClass('not-clickable').addClass('clickable');
+             $('.footer-categories-pagination a.navPages-action.previous').removeClass('not-clickable').addClass('clickable');
+             // console.log("First & Last Page are inactive");
+           }
+           // LAST PAGE ACTIVE - DEACTIVATE NEXT ARROW
+           if ( ($(firstPage).hasClass("inactive-page")) && ($(lastPage).hasClass("active-page"))  ){
+           // if ( ($(this).find(firstPage).hasClass("inactive-page")) && ($(this).find(lastPage).hasClass("active-page"))  ){
+             $('.footer-categories-pagination a.navPages-action.next').removeClass('clickable').addClass('not-clickable');
+             $('.footer-categories-pagination a.navPages-action.previous').removeClass('not-clickable').addClass('clickable');
+             // console.log("FirstPage-Inactive & LastPage-Active");
+           }
+           // var activePageHeight = -1;
+           // $('.navPage-subMenu.navPage-subMenu-horizontal.second-level-flyout.active-flyout').each(function(i) {
+           //   var activePageHeight = $(this).find('div.flyout.page.active-page').height();
+           //   // console.log(activePageHeight);
+           // });
+         });
+     });
+    });
+    // <!-- PREVIOUS FOOTER PAGE -->
+         $(document).ready(function() {
+          var firstPage = $('.categories-footer.page:first');
+          var lastPage = $('.categories-footer.page:last');
+           // SET PREVIOUS TO not-clickable on page load
+           $('.footer-categories-pagination a.navPages-action.previous').addClass('not-clickable');
+
+             $('.footer-categories-pagination a.navPages-action.previous').click(function(){
+               var activePage = $('.categories-footer.page.active-page');
+               $('.categories-footer.page.active-page').addClass('inactive-page').removeClass('active-page');
+               $(activePage).prev('.categories-footer.page').removeClass('inactive-page').addClass('active-page');
+               $('.categories-footer.page.active-page').fadeIn();
+               $('.categories-footer.page.inactive-page').hide();
+
+               $('.categories-footer.page').each(function(i) {
+               // FIRST PAGE ACTIVE - DEACTIVE PREVIOUS ARROW
+               if ( ($(firstPage).hasClass("active-page")) && ($(lastPage).hasClass("inactive-page"))  ){
+                 $('.footer-categories-pagination a.navPages-action.next').removeClass('not-clickable').addClass('clickable');
+                 $('.footer-categories-pagination a.navPages-action.previous').removeClass('clickable').addClass('not-clickable');
+                 // console.log("FirstPage-Active & LastPage-Inactive");
+               }
+               // FIRST & LAST PAGE INACTIVE - ACTIVATE BOTH PREVIOUS & NEXT ARROWS
+               if ( ($(firstPage).hasClass("inactive-page")) && ($(lastPage).hasClass("inactive-page"))  ){
+               // if ( ($(this).find(firstPage).hasClass("inactive-page")) && ($(this).find(lastPage).hasClass("inactive-page"))  ){
+                 $('.footer-categories-pagination a.navPages-action.next').removeClass('not-clickable').addClass('clickable');
+                 $('.footer-categories-pagination a.navPages-action.previous').removeClass('not-clickable').addClass('clickable');
+                 // console.log("First & Last Page are inactive");
+               }
+               // LAST PAGE ACTIVE - DEACTIVATE NEXT ARROW
+               if ( ($(firstPage).hasClass("inactive-page")) && ($(lastPage).hasClass("active-page"))  ){
+               // if ( ($(this).find(firstPage).hasClass("inactive-page")) && ($(this).find(lastPage).hasClass("active-page"))  ){
+                 $('.footer-categories-pagination a.navPages-action.next').removeClass('clickable').addClass('not-clickable');
+                 $('.footer-categories-pagination a.navPages-action.previous').removeClass('not-clickable').addClass('clickable');
+                 // console.log("FirstPage-Inactive & LastPage-Active");
+               }
+               // var activePageHeight = -1;
+               // $('.navPage-subMenu.navPage-subMenu-horizontal.second-level-flyout.active-flyout').each(function(i) {
+               //   var activePageHeight = $(this).find('div.flyout.page.active-page').height();
+               //   // console.log(activePageHeight);
+               // });
+             });
+         });
+        });
+        </script>
+
+
+<script>
+  $(window).on("load", function(){
+  	$('li.navUser-item.currency-menu').addClass('visible');
+  });
+</script>
+
+        <script>window.__webpack_public_path__ = "https://cdn11.bigcommerce.com/s-9r2evdek4b/stencil/905f8470-a76c-0138-790f-0242ac110010/e/7dcd1aa0-d0d8-013c-8378-764da8532496/dist/";</script>
+        <script src="https://cdn11.bigcommerce.com/s-9r2evdek4b/stencil/905f8470-a76c-0138-790f-0242ac110010/e/7dcd1aa0-d0d8-013c-8378-764da8532496/dist/theme-bundle.main.js"></script>
+        <script>
+            // Exported in app.js
+            window.stencilBootstrap("product", "{\"themeSettings\":{\"optimizedCheckout-formChecklist-color\":\"#2f2f2b\",\"footer_payment_section_border_color\":\"#363636\",\"homepage_new_products_column_count\":5,\"card--alternate-color--hover\":\"#ffffff\",\"optimizedCheckout-colorFocus\":\"#FD1B59\",\"fontSize-root\":14,\"show_accept_amex\":true,\"optimizedCheckout-buttonPrimary-borderColorDisabled\":\"transparent\",\"homepage_top_products_count\":12,\"paymentbuttons-paypal-size\":\"small\",\"optimizedCheckout-buttonPrimary-backgroundColorActive\":\"#FF5181\",\"brandpage_products_per_page\":12,\"color-secondaryDarker\":\"#cccccc\",\"navUser-color\":\"#786C6C\",\"color-textBase--active\":\"#e74c3c\",\"mid_banner_color_byline_text_2\":\"#2f2f2b\",\"mid_banner_column_number\":2,\"show_powered_by\":false,\"mid_banner_body_text_1_alignment\":\"left-aligned\",\"fontSize-h4\":20,\"checkRadio-borderColor\":\"#cccccc\",\"color-primaryDarker\":\"#333333\",\"optimizedCheckout-buttonPrimary-colorHover\":\"#ffffff\",\"brand_size\":\"190x250\",\"optimizedCheckout-logo-position\":\"left\",\"optimizedCheckout-discountBanner-backgroundColor\":\"#e5e5e5\",\"color-textLink--hover\":\"#D20E00\",\"pdp-sale-price-label\":\"Now:\",\"featured_banner_link_1\":\"\",\"featured_banner_name_3\":\"\",\"optimizedCheckout-buttonSecondary-backgroundColorHover\":\"#FF5181\",\"upper_banner_body_text_1\":\"\",\"mid_banner_byline_text_1\":\"\",\"featured_banner_mid_2_background_color\":\"#ffffff\",\"logo_size\":\"180x72\",\"lower_banner_title_1_alignment\":\"left-aligned\",\"show_homepage_lower_featured_banners_1\":false,\"optimizedCheckout-formField-backgroundColor\":\"#ffffff\",\"footer-backgroundColor\":\"#1f1f1f\",\"navPages-color\":\"#786C6C\",\"optimizedCheckout-step-borderColor\":\"#d7d7d7\",\"show_homepage_mid_featured_banners_1\":false,\"productpage_reviews_count\":9,\"featured_banner_mid_2_border_color\":\"#e4e3e1\",\"optimizedCheckout-headingPrimary-font\":\"Google_Poppins_400\",\"show_accept_paypal\":false,\"paymentbuttons-paypal-label\":\"checkout\",\"featured_banner_lower_2_border_color\":\"#e4e3e1\",\"paymentbuttons-paypal-shape\":\"pill\",\"optimizedCheckout-discountBanner-textColor\":\"#2f2f2b\",\"optimizedCheckout-backgroundImage-size\":\"1000x400\",\"pdp-retail-price-label\":\"MSRP:\",\"optimizedCheckout-buttonPrimary-font\":\"Google_Poppins_700\",\"button--disabled-backgroundColor\":\"#cccccc\",\"mid_banner_byline_text_2\":\"\",\"external_link3\":false,\"featured_banner_image_3\":\"\",\"blockquote-cite-font-color\":\"#999999\",\"lower_banner_body_text_1_alignment\":\"left-aligned\",\"lower_banner_byline_text_2\":\"\",\"carousel-dot-color\":\"#0F7E12\",\"optimizedCheckout-formField-shadowColor\":\"#e5e5e5\",\"categorypage_products_per_page\":12,\"container-fill-base\":\"#ffffff\",\"paymentbuttons-paypal-layout\":\"horizontal\",\"homepage_featured_products_column_count\":5,\"button--default-color\":\"#ffffff\",\"color-textLink--active\":\"#D20E00\",\"show_homepage_upper_featured_banners_1_image\":false,\"mid_banner_title_2\":\"\",\"optimizedCheckout-loadingToaster-backgroundColor\":\"#2f2f2b\",\"color-textHeading\":\"#0F7E12\",\"show_accept_discover\":true,\"left-banner-bgColor\":\"#547A4B\",\"pace-progress-backgroundColor\":\"#CA3B2D\",\"optimizedCheckout-formField-errorColor\":\"#FD1B59\",\"spinner-borderColor-dark\":\"#191919\",\"restrict_to_login\":false,\"input-font-color\":\"#2f2f2b\",\"carousel-title-color\":\"#FFFFFF\",\"main-nav-backgroundColor\":\"#FFFFFF\",\"select-bg-color\":\"#ffffff\",\"show_accept_mastercard\":true,\"optimizedCheckout-link-font\":\"Google_Poppins_400\",\"featured_banner_mid_1_background_color\":\"#ffffff\",\"carousel-arrow-bgColor\":\"#ffffff\",\"color_text_product_sale_badges\":\"#ffffff\",\"hide_category_navigation\":true,\"cart_counter_color\":\"#CA3B2D\",\"homepage_show_carousel_arrows\":false,\"color_hover_product_sale_badges\":\"#547A4B\",\"card--alternate-borderColor\":\"#ffffff\",\"homepage_new_products_count\":0,\"button--disabled-color\":\"#ffffff\",\"featured_banner_lower_1_background_color\":\"#ffffff\",\"color-primaryDark\":\"#666666\",\"featured_banner_link_6\":\"\",\"upper_banner_title_1\":\"This is a text\",\"color-grey\":\"#999999\",\"body-font\":\"Google_Poppins_400\",\"optimizedCheckout-step-textColor\":\"#ffffff\",\"optimizedCheckout-buttonPrimary-borderColorActive\":\"transparent\",\"navPages-subMenu-backgroundColor\":\"#FCFAEB\",\"button--primary-backgroundColor\":\"#004EFF\",\"mid_banner_byline_text_2_alignment\":\"left-aligned\",\"checkRadio-color\":\"#2f2f2b\",\"show_product_dimensions\":false,\"optimizedCheckout-link-color\":\"#FD1B59\",\"icon-color-hover\":\"#CA3B2D\",\"button--default-borderColor\":\"#CA3B2D\",\"headings-font\":\"Google_Poppins_700\",\"sticky_nav_top_borderColor\":\"#CA3B2D\",\"label-backgroundColor\":\"#cccccc\",\"button--primary-backgroundColorHover\":\"#ACC90C\",\"optimizedCheckout-formField-borderColor\":\"#d7d7d7\",\"show_created_by\":false,\"card-figcaption-button-background\":\"#ffffff\",\"right-banner-bgColor\":\"#ACC90C\",\"mid_banner_body_text_2_alignment\":\"left-aligned\",\"optimizedCheckout-headingSecondary-font\":\"Google_Poppins_400\",\"button--disabled-borderColor\":\"transparent\",\"label-color\":\"#ffffff\",\"show_homepage_lower_featured_banners_1_image\":false,\"logo_fontSize\":48,\"alert-backgroundColor\":\"#ffffff\",\"optimizedCheckout-logo-size\":\"250x100\",\"default_image_brand\":\"/assets/img/BrandDefault.gif\",\"upper_banner_title_1_alignment\":\"left-aligned\",\"featured_banner_name_6\":\"\",\"card-title-color\":\"#2f2f2b\",\"pdp-non-sale-price-label\":\"Was:\",\"newsletter-backgroundColor\":\"#ebebeb\",\"optimizedCheckout-headingSecondary-color\":\"#333333\",\"show_homepage_mid_featured_banners_2\":false,\"select-arrow-color\":\"#757575\",\"lower_banner_byline_text_1_alignment\":\"left-aligned\",\"mid_banner_title_1_alignment\":\"left-aligned\",\"product_list_display_mode\":\"grid\",\"optimizedCheckout-link-hoverColor\":\"#FD1B59\",\"number_of_categories_per_page\":15,\"fontSize-h5\":15,\"product_size\":\"600x600\",\"paymentbuttons-paypal-color\":\"gold\",\"homepage_show_carousel\":true,\"optimizedCheckout-body-backgroundColor\":\"#ffffff\",\"carousel-arrow-borderColor\":\"#e4e3e1;\",\"mid_banner_body_text_2\":\"\",\"button--default-borderColorActive\":\"#D20E00\",\"upper_banner_title_2\":\"\",\"header-backgroundColor\":\"#FFFFFF\",\"featured_banner_name_1\":\"\",\"color-greyDarkest\":\"#000000\",\"color_badge_product_sale_badges\":\"#CA3B2D\",\"show_accept_chase_pay\":false,\"color-greyDark\":\"#666666\",\"mega_nav_name\":\"Shop\",\"paymentbuttons-paypal-tagline\":true,\"price_ranges\":true,\"lower_banner_body_text_2_alignment\":\"left-aligned\",\"productpage_videos_count\":8,\"upper_banner_color_byline_text_2\":\"#2f2f2b\",\"optimizedCheckout-buttonSecondary-borderColorHover\":\"#d7d7d7\",\"optimizedCheckout-discountBanner-iconColor\":\"#2f2f2b\",\"optimizedCheckout-buttonSecondary-borderColor\":\"#d7d7d7\",\"external_link4\":false,\"optimizedCheckout-loadingToaster-textColor\":\"#ffffff\",\"upper_banner_byline_text_2_alignment\":\"left-aligned\",\"lower_banner_byline_text_1\":\"\",\"optimizedCheckout-buttonPrimary-colorDisabled\":\"#ffffff\",\"optimizedCheckout-formField-placeholderColor\":\"#2f2f2b\",\"navUser-color-hover\":\"#CA3B2D\",\"icon-ratingFull\":\"#CA3B2D\",\"default_image_gift_certificate\":\"/assets/img/GiftCertificate.png\",\"upper_banner_column_number\":2,\"card--alternate-textColor\":\"#2f2f2b\",\"show_pages_in_main_mobile_nav\":true,\"color-textBase--hover\":\"#CA3B2D\",\"color-errorLight\":\"#e74c3c\",\"mid_banner_body_text_1\":\"\",\"external_link1\":false,\"blog_size\":\"390x250\",\"shop_by_price_visibility\":true,\"optimizedCheckout-buttonSecondary-colorActive\":\"#ffffff\",\"show_brands_in_sticky_nav\":false,\"color-warningLight\":\"#ff762b\",\"show_product_weight\":true,\"featured_banner_image_4\":\"\",\"optimizedCheckout-orderSummary-backgroundColor\":\"#ffffff\",\"button--default-colorActive\":\"#ffffff\",\"optimizedCheckout-formChecklist-backgroundColorSelected\":\"#f5f5f5\",\"show_product_quick_view\":true,\"button--default-borderColorHover\":\"#D20E00\",\"card--alternate-backgroundColor\":\"#ffffff\",\"hide_content_navigation\":false,\"featured_banner_upper_2_background_color\":\"#ffffff\",\"color-info\":\"#ffffff\",\"pdp-price-label\":\"\",\"show_copyright_footer\":true,\"swatch_option_size\":\"45x45\",\"footer-headingsColor\":\"#ffffff\",\"carousel-description-color\":\"#FFFFFF\",\"upper_banner_byline_text_2\":\"\",\"optimizedCheckout-formChecklist-backgroundColor\":\"#ffffff\",\"show_homepage_mid_featured_banners_2_text\":false,\"lower_banner_color_title_2\":\"#2f2f2b\",\"optimizedCheckout-orderSummary-borderColor\":\"#d7d7d7\",\"featured_banner_image_5\":\"\",\"mid_banner_title_1\":\"\",\"optimizedCheckout-show-logo\":\"none\",\"fontSize-h2\":25,\"optimizedCheckout-step-backgroundColor\":\"#FD1B59\",\"optimizedCheckout-headingPrimary-color\":\"#333333\",\"upper_banner_color_byline_text_1\":\"#2f2f2b\",\"color-textBase\":\"#333333\",\"color-warning\":\"#e74c3c\",\"productgallery_size\":\"500x659\",\"alert-color\":\"#333333\",\"show_homepage_upper_featured_banners_1_text\":false,\"show_accept_visa_pay\":false,\"card-figcaption-button-color\":\"#1f1f1f\",\"featured_banner_name_5\":\"\",\"color-textSecondary--active\":\"#ff762b\",\"optimizedCheckout-formField-inputControlColor\":\"#FD1B59\",\"optimizedCheckout-contentPrimary-color\":\"#2f2f2b\",\"optimizedCheckout-buttonSecondary-font\":\"Google_Poppins_400\",\"storeName-color\":\"#333333\",\"optimizedCheckout-backgroundImage\":\"\",\"form-label-font-color\":\"#2f2f2b\",\"upper_banner_body_text_1_alignment\":\"left-aligned\",\"shop_by_brand_show_footer\":false,\"featured_banner_link_3\":\"\",\"mid_banner_color_body_text_1\":\"#2f2f2b\",\"searchpage_products_per_page\":12,\"optimizedCheckout-header-backgroundColor\":\"#ffffff\",\"productpage_related_products_count\":10,\"optimizedCheckout-buttonSecondary-backgroundColorActive\":\"#FF5181\",\"color-textLink\":\"#CA3B2D\",\"show_homepage_lower_featured_banners_1_text\":false,\"featured_banner_mid_1_border_color\":\"#e4e3e1\",\"color-greyLighter\":\"#cccccc\",\"show_homepage_upper_featured_banners_1\":false,\"mid_banner_color_title_2\":\"#2f2f2b\",\"featured_banner_name_2\":\"\",\"color-greyLightest\":\"#e5e5e5\",\"color-secondaryDark\":\"#e5e5e5\",\"fontSize-h6\":13,\"lower_banner_title_2\":\"\",\"paymentbuttons-paypal-fundingicons\":false,\"carousel-arrow-color\":\"#313131\",\"productpage_similar_by_views_count\":10,\"show_pages_in_sticky_nav\":false,\"show_brands_in_main_mega_nav\":false,\"upper_banner_color_body_text_2\":\"#2f2f2b\",\"loadingOverlay-backgroundColor\":\"#ffffff\",\"upper_banner_byline_text_1\":\"\",\"lower_banner_color_body_text_1\":\"#2f2f2b\",\"optimizedCheckout-buttonPrimary-color\":\"#ffffff\",\"input-bg-color\":\"#ffffff\",\"navPages-subMenu-separatorColor\":\"#d7d7d7\",\"navPages-color-hover\":\"#547A4B\",\"product_sale_badges\":\"topleft\",\"default_image_product\":\"/assets/img/ProductDefault.gif\",\"navUser-dropdown-borderColor\":\"#d7d7d7\",\"optimizedCheckout-buttonPrimary-colorActive\":\"#ffffff\",\"color-greyMedium\":\"#757575\",\"featured_banner_upper_2_border_color\":\"#e4e3e1\",\"optimizedCheckout-formChecklist-borderColor\":\"#cccccc\",\"featured_banner_upper_1_background_color\":\"#ffffff\",\"upper_banner_body_text_2\":\"\",\"show_homepage_mid_featured_banners_1_text\":false,\"color-infoLight\":\"#dfdfdf\",\"fontSize-h1\":28,\"homepage_featured_products_count\":0,\"color-greyLight\":\"#999999\",\"optimizedCheckout-logo\":\"\",\"icon-ratingEmpty\":\"#c2c2c2\",\"show_product_details_tabs\":true,\"icon-color\":\"#FFFFFF\",\"featured_banner_image_1\":\"shade-farming.jpg\",\"button--default-backgroundColorHover\":\"#CA3B2D\",\"overlay-backgroundColor\":\"#333333\",\"input-border-color-active\":\"#D20E00\",\"lower_banner_color_body_text_2\":\"#2f2f2b\",\"container-fill-dark\":\"#f4f0ed\",\"optimizedCheckout-buttonPrimary-backgroundColorDisabled\":\"#cccccc\",\"button--primary-color\":\"#FFFFFF\",\"lower_banner_color_byline_text_1\":\"#2f2f2b\",\"show_homepage_upper_featured_banners_2_image\":false,\"optimizedCheckout-buttonPrimary-borderColorHover\":\"transparent\",\"show_homepage_mid_featured_banners_1_image\":false,\"mid_banner_color_byline_text_1\":\"#2f2f2b\",\"color-successLight\":\"#01a74f\",\"featured_banner_link_4\":\"\",\"featured_banner_image_6\":\"\",\"sticky_mega_nav_name\":\"Menu\",\"color-greyDarker\":\"#333333\",\"show_product_quantity_box\":true,\"featured_banner_lower_1_border_color\":\"#e4e3e1\",\"button--default-backgroundColor\":\"#547A4B\",\"color-success\":\"#01a74f\",\"phone_number_hover_color\":\"#547A4B\",\"lower_banner_color_title_1\":\"#2f2f2b\",\"optimizedCheckout-header-borderColor\":\"#d7d7d7\",\"show_homepage_mid_featured_banners_2_image\":false,\"zoom_size\":\"1280x1280\",\"upper_banner_title_2_alignment\":\"left-aligned\",\"lower_banner_body_text_1\":\"\",\"show_homepage_upper_featured_banners_2_text\":false,\"optimizedCheckout-buttonSecondary-backgroundColor\":\"#FD1B59\",\"productview_thumb_size\":\"50x50\",\"fontSize-h3\":22,\"spinner-borderColor-light\":\"#D20E00\",\"show_homepage_lower_featured_banners_2\":false,\"geotrust_ssl_common_name\":\"\",\"external_link5\":false,\"color-white\":\"#ffffff\",\"upper_banner_byline_text_1_alignment\":\"left-aligned\",\"carousel-bgColor\":\"#355C2C\",\"show_sticky_nav\":true,\"mid_banner_color_title_1\":\"#2f2f2b\",\"optimizedCheckout-buttonPrimary-backgroundColor\":\"#FD1B59\",\"color-secondary\":\"#e74c3c\",\"featured_banner_name_4\":\"\",\"mid_banner_byline_text_1_alignment\":\"left-aligned\",\"show_logo_in_sticky_nav\":false,\"carousel-dot-color-active\":\"#CA3B2D\",\"button--primary-backgroundColorActive\":\"#004EFF\",\"color-textSecondary--hover\":\"#CA3B2D\",\"show_mobile_subcategory_grid\":true,\"input-border-color\":\"#2f2f2b\",\"lower_banner_title_1\":\"\",\"show_accept_amazon_pay\":false,\"color-whitesBase\":\"#e5e5e5\",\"body-bg\":\"#ffffff\",\"dropdown--quickSearch-backgroundColor\":\"transparent\",\"optimizedCheckout-contentSecondary-font\":\"Google_Poppins_400\",\"featured_banner_link_2\":\"\",\"featured_banner_lower_2_background_color\":\"#ffffff\",\"navUser-dropdown-backgroundColor\":\"#ffffff\",\"show_social_icons\":true,\"upper_banner_color_title_2\":\"#2f2f2b\",\"color-primary\":\"#e74c3c\",\"optimizedCheckout-contentPrimary-font\":\"Google_Poppins_400\",\"homepage_top_products_column_count\":5,\"supported_card_type_icons\":[\"american_express\",\"diners\",\"discover\",\"mastercard\",\"visa\"],\"upper_banner_body_text_2_alignment\":\"left-aligned\",\"optimizedCheckout-formField-textColor\":\"#2f2f2b\",\"footer-bottom-textColor\":\"#b2b2b2\",\"color-black\":\"#ffffff\",\"navigation_design\":\"alternate\",\"footer-linkHoverColor\":\"#CA3B2D\",\"blog_size_post\":\"790x790\",\"button--primary-colorActive\":\"#ffffff\",\"homepage_stretch_carousel_images\":false,\"optimizedCheckout-contentSecondary-color\":\"#757575\",\"card--alternate-hover-color\":\"#FD1B59\",\"applePay-button\":\"black\",\"thumb_size\":\"100x100\",\"lower_banner_byline_text_2_alignment\":\"left-aligned\",\"mid_banner_title_2_alignment\":\"left-aligned\",\"lower_banner_title_2_alignment\":\"left-aligned\",\"optimizedCheckout-buttonSecondary-colorHover\":\"#ffffff\",\"card-title-color-hover\":\"#CA3B2D\",\"external_link2\":false,\"optimizedCheckout-buttonPrimary-borderColor\":\"#d7d7d7\",\"featured_banner_link_5\":\"\",\"navUser-indicator-backgroundColor\":\"#333333\",\"optimizedCheckout-buttonSecondary-borderColorActive\":\"#d7d7d7\",\"featured_banner_upper_1_border_color\":\"#e4e3e1\",\"featured_banner_image_2\":\"\",\"show_accept_masterpass\":false,\"optimizedCheckout-header-textColor\":\"#2f2f2b\",\"phone_number_color\":\"#CA3B2D\",\"optimizedCheckout-show-backgroundImage\":false,\"show_homepage_lower_featured_banners_2_image\":false,\"color-primaryLight\":\"#ff762b\",\"external_link6\":false,\"footer-bottom-backgroundColor\":\"#191919\",\"show_product_reviews_tabs\":true,\"carousel-dot-bgColor\":\"#CA3B2D\",\"optimizedCheckout-form-textColor\":\"#2f2f2b\",\"optimizedCheckout-buttonSecondary-color\":\"#ffffff\",\"geotrust_ssl_seal_size\":\"M\",\"lower_banner_color_byline_text_2\":\"#2f2f2b\",\"show_accept_visa\":true,\"logo-position\":\"left\",\"upper_banner_color_title_1\":\"#2f2f2b\",\"button--icon-svg-color\":\"#2f2f2b\",\"show_homepage_lower_featured_banners_2_text\":false,\"alert-color-alt\":\"#ffffff\",\"lower_banner_column_number\":2,\"footer-textColor\":\"#FFFFFF\",\"button--default-colorHover\":\"#ffffff\",\"checkRadio-backgroundColor\":\"#ffffff\",\"show_homepage_upper_featured_banners_2\":false,\"optimizedCheckout-buttonPrimary-backgroundColorHover\":\"#FF5181\",\"show_accept_apple_pay\":false,\"input-disabled-bg\":\"#ffffff\",\"show_pages_in_mobile_nav\":true,\"lower_banner_body_text_2\":\"\",\"dropdown--wishList-backgroundColor\":\"#ffffff\",\"container-border-global-color-base\":\"#cdcccc\",\"mega_nav_text_hover_active_color\":\"#CA3B2D\",\"productthumb_size\":\"100x100\",\"button--primary-colorHover\":\"#ffffff\",\"color-error\":\"#e74c3c\",\"upper_banner_color_body_text_1\":\"#2f2f2b\",\"homepage_blog_posts_count\":3,\"gallery_size\":\"300x300\",\"color-textSecondary\":\"#0F7E12\",\"mid_banner_color_body_text_2\":\"#2f2f2b\"},\"genericError\":\"Oops! Something went wrong.\",\"maintenanceMode\":[],\"urls\":{\"home\":\"https://skymountaincoffee.com/\",\"account\":{\"index\":\"/account.php\",\"orders\":{\"all\":\"/account.php?action=order_status\",\"completed\":\"/account.php?action=view_orders\",\"save_new_return\":\"/account.php?action=save_new_return\"},\"update_action\":\"/account.php?action=update_account\",\"returns\":\"/account.php?action=view_returns\",\"addresses\":\"/account.php?action=address_book\",\"inbox\":\"/account.php?action=inbox\",\"send_message\":\"/account.php?action=send_message\",\"add_address\":\"/account.php?action=add_shipping_address\",\"wishlists\":{\"all\":\"/wishlist.php\",\"add\":\"/wishlist.php?action=addwishlist\",\"edit\":\"/wishlist.php?action=editwishlist\",\"delete\":\"/wishlist.php?action=deletewishlist\"},\"details\":\"/account.php?action=account_details\",\"recent_items\":\"/account.php?action=recent_items\"},\"brands\":\"https://skymountaincoffee.com/brands/\",\"gift_certificate\":{\"purchase\":\"/giftcertificates.php\",\"redeem\":\"/giftcertificates.php?action=redeem\",\"balance\":\"/giftcertificates.php?action=balance\"},\"auth\":{\"login\":\"/login.php\",\"check_login\":\"/login.php?action=check_login\",\"create_account\":\"/login.php?action=create_account\",\"save_new_account\":\"/login.php?action=save_new_account\",\"forgot_password\":\"/login.php?action=reset_password\",\"send_password_email\":\"/login.php?action=send_password_email\",\"save_new_password\":\"/login.php?action=save_new_password\",\"logout\":\"/login.php?action=logout\"},\"product\":{\"post_review\":\"/postreview.php\"},\"cart\":\"/cart.php\",\"checkout\":{\"single_address\":\"/checkout\",\"multiple_address\":\"/checkout.php?action=multiple\"},\"rss\":{\"products\":[]},\"contact_us_submit\":\"/pages.php?action=sendContactForm\",\"search\":\"/search.php\",\"compare\":\"/compare\",\"sitemap\":\"/sitemap.php\",\"subscribe\":{\"action\":\"/subscribe.php\"}},\"secureBaseUrl\":\"https://skymountaincoffee.com\",\"cartId\":null,\"template\":\"pages/product\"}").load();
+        </script>
+
+
+<!-- PRODUCT ACCORION DETAILS -->
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script>
+  $("#accordion").accordion({
+    heightStyle: "content",
+    collapsible: true
+  });
+  </script>
+
+        <script type="text/javascript" src="https://cdn11.bigcommerce.com/shared/js/csrf-protection-header-5eeddd5de78d98d146ef4fd71b2aedce4161903e.js"></script>
+<script type="text/javascript" src="https://cdn11.bigcommerce.com/r-a3700f942d8f215cf37653f831cf656139ec6a39/javascript/visitor_stencil.js"></script>
+<script>fbq('track', 'ViewContent', {"content_ids":["114"],"content_type":"product_group","currency":"USD","value":15.95}, {"eventID":"ee41bb6e-1f24-4d48-867a-7a4e0fd23860"});</script>
+        <!-- snippet location footer -->
+    </body>
+</html>
